@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Workout Tracker",
+    "description": "A Workout Tracker az ultimát fitnesz társad. Naplózd edzéseidet, kövesd nyomon fejlődésed, és érd el fitnesz céljaid könnyedén."
+  },
+  "Nav": {
+    "home": "Kezdőlap",
+    "workouts": "Edzések",
+    "exercises": "Gyakorlatok",
+    "contact": "Kapcsolat",
+    "signin": "Bejelentkezés",
+    "signout": "Kijelentkezés"
+  },
+  "Footer": {
+    "language": {
+      "en": "Angol",
+      "sk": "Szlovák",
+      "hu": "Magyar"
+    },
+    "contact": "Kapcsolat"
+  },
+  "SignIn": {
+    "title": "Bejelentkezés",
+    "emailLabel": "Email cím",
+    "passwordLabel": "Jelszó",
+    "submitButton": "Bejelentkezés",
+    "signingIn": "Bejelentkezés...",
+    "noAccount": "Nincs fiókod?",
+    "registerLink": "Regisztrálj most"
+  },
+  "SignUp": {
+    "title": "Regisztráció",
+    "fullNameLabel": "Teljes név",
+    "emailLabel": "Email cím",
+    "passwordLabel": "Jelszó",
+    "confirmPasswordLabel": "Jelszó megerősítése",
+    "submitButton": "Regisztráció",
+    "signingUp": "Regisztráció...",
+    "haveAccount": "Már van fiókod?",
+    "signinLink": "Jelentkezz be itt"
+  },
+  "Contact": {
+    "title": "Lépj kapcsolatba velünk",
+    "description": "Örömmel hallunk felőled! Legyenek kérdéseid, visszajelzéseid vagy segítségre van szükséged, bátran fordulj hozzánk."
+  },
+  "ContactForm": {
+    "title": "Üzenet küldése",
+    "fNameLabel": "Keresztnév",
+    "lNameLabel": "Vezetéknév",
+    "messageLabel": "Üzenet",
+    "submitButton": "Üzenet küldése",
+    "sending": "Küldés...",
+    "successMessage": "Köszönjük, hogy kapcsolatba léptél velünk! Hamarosan válaszolunk.",
+    "errorMessage": "Hoppá! Valami hiba történt. Kérjük, próbáld meg később újra."
+  },
+  "HeroSection": {
+    "title": "Kövessd nyomon edzéseidet a <span>WT</span>-vel.",
+    "description": "Egyszerűsítsd fitnesz utad intuitív edzéskövető eszközeinkkel.",
+    "startTracking": "Követés kezdése",
+    "contactUs": "Kapcsolat"
+  },
+  "FeaturesSection": {
+    "mainHeading": "Az <span>edzésed</span> támogatására építve",
+    "subHeading": "Minden, amire szükséged van ahhoz, hogy okosabban edzhess, következetes maradj, és valódi eredményeket érj el.",
+    "feature1Title": "Edzésnapló",
+    "feature1Desc": "Könnyedén rögzítheted edzéseidet, gyakorlatokat, sorozatokat és ismétléseket.",
+    "feature2Title": "Gyakorlatkönyvtár",
+    "feature2Desc": "Böngéssz a különböző gyakorlatok között, és találd meg a számodra megfelelőt.",
+    "feature3Title": "Fejlődéskövetés",
+    "feature3Desc": "Kövesd nyomon fejlődésedet személyes rekordok és teljesítményelemzések segítségével."
+  },
+    "ExercisesPage": {
+    "title": "Gyakorlatok"
+  },  
+  "FilterBar": {
+    "showall": "Összes mutatása",
+    "muscle": "Célizom:",
+    "equipment": "Felszerelés:",
+    "order": "Rendezés:"
+  },
+  "ExerciseList": {
+    "errorTitle": "Hiba a gyakorlatok betöltésekor",
+    "errorMessage": "Hoppá! Valami hiba történt a gyakorlatok lekérése során. Kérjük, próbáld meg újra később.",
+    "noExercisesTitle": "Nincs találat",
+    "noExercisesMessage": "Próbáld meg módosítani a szűrőket, hogy megtaláld, amit keresel."
+  },
+  "ExerciseCard": {
+    "details": "Részletek",
+    "add": "Hozzáadás",
+    "muscle": "Izomcsoport:",
+    "equipment": "Felszerelés:"
+  },
+  "ExercisePage": {
+    "loading": "Gyakorlat betöltése...",
+    "error": "Hiba történt a gyakorlat betöltésekor. Kérjük, próbáld meg újra.",
+    "muscleLabel": "Izomcsoport:",
+    "equipmentLabel": "Felszerelés:",
+    "descriptionLabel": "Leírás",
+    "imgAlt": "Gyakorlat bemutató GIF",
+    "button": "Hozzáadás az edzéshez"
+  }
+}

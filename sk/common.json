@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Workout Tracker",
+    "description": "Workout Tracker je váš ultimátny fitnes spoločník. Zaznamenávajte si svoje tréningy, sledujte svoj pokrok a dosahujte svoje fitnes ciele ľahko."
+  },
+  "Nav": {
+    "home": "Domov",
+    "workouts": "Cvičenia",
+    "exercises": "Cviky",
+    "contact": "Kontakt",
+    "signin": "Prihlásiť sa",
+    "signout": "Odhlásiť sa"
+  },
+  "Footer": {
+    "language": {
+      "en": "Angličtina",
+      "sk": "Slovenčina",
+      "hu": "Maďarčina"
+    },
+    "contact": "Kontakt"
+  },
+  "SignIn": {
+    "title": "Prihlásenie",
+    "emailLabel": "Emailová adresa",
+    "passwordLabel": "Heslo",
+    "submitButton": "Prihlásiť sa",
+    "signingIn": "Prihlasovanie...",
+    "noAccount": "Nemáte účet?",
+    "registerLink": "Zaregistrujte sa teraz"
+  },
+  "SignUp": {
+    "title": "Registrácia",
+    "fullNameLabel": "Celé meno",
+    "emailLabel": "Emailová adresa",
+    "passwordLabel": "Heslo",
+    "confirmPasswordLabel": "Potvrdiť heslo",
+    "submitButton": "Zaregistrovať sa",
+    "signingUp": "Registrácia...",
+    "haveAccount": "Už máte účet?",
+    "signinLink": "Prihláste sa tu"
+  },
+  "Contact": {
+    "title": "Kontaktujte nás",
+    "description": "Radi vás počujeme! Či už máte otázky, spätnú väzbu alebo potrebujete pomoc, neváhajte nás kontaktovať."
+  },
+  "ContactForm": {
+    "title": "Odoslať správu",
+    "fNameLabel": "Meno",
+    "lNameLabel": "Priezvisko",
+    "messageLabel": "Správa",
+    "submitButton": "Odoslať správu",
+    "sending": "Odosielanie...",
+    "successMessage": "Ďakujeme, že ste nás kontaktovali! Čoskoro sa vám ozveme.",
+    "errorMessage": "Ups! Niečo sa pokazilo. Skúste to prosím neskôr znova."
+  },
+  "HeroSection": {
+    "title": "Sledujte svoje tréningy s <span>WT</span>.",
+    "description": "Zjednodušte svoju fitnes cestu s našimi intuitívnymi nástrojmi na sledovanie tréningov.",
+    "startTracking": "Začať sledovanie",
+    "contactUs": "Kontakt"
+  },
+  "FeaturesSection": {
+    "mainHeading": "Vytvorené na podporu <span>Vášho tréningu</span>",
+    "subHeading": "Všetko, čo potrebujete na inteligentnejší tréning, udržanie konzistencie a dosiahnutie skutočných výsledkov.",
+    "feature1Title": "Sledovanie pokroku",
+    "feature1Desc": "Sledujte svoju fitnes cestu pomocou sledovania osobných rekordov a analytiky výkonu.",
+    "feature2Title": "Prispôsobiteľné cvičenia",
+    "feature2Desc": "Vytvárajte a prispôsobujte si cvičenia podľa svojich cieľov a preferencií.",
+    "feature3Title": "Analytika výkonu",
+    "feature3Desc": "Získajte prehľady o svojom výkone a identifikujte oblasti na zlepšenie."
+  },
+    "ExercisesPage": {
+    "title": "Cviky"
+  },  
+  "FilterBar": {
+    "showall": "Zobraziť všetko",
+    "muscle": "Cieľová svalová skupina:",
+    "equipment": "Vybavenie:",
+    "order": "Zoradiť podľa:"
+  },
+  "ExerciseList": {
+    "errorTitle": "Nastala chyba",
+    "errorMessage": "Nepodarilo sa načítať cviky. Skúste to prosím neskôr znova.",
+    "noExercisesTitle": "Nenašli sa žiadne cviky",
+    "noExercisesMessage": "Skúste upraviť filtre, aby ste našli to, čo hľadáte."
+  },
+  "ExerciseCard": {
+    "details": "Detaily",
+    "add": "Pridať",
+    "muscle": "Cieľová svalová skupina:",
+    "equipment": "Vybavenie:"
+  },
+  "ExercisePage": {
+    "loading": "Načítava sa cvik...",
+    "error": "Nastala chyba pri načítavaní cviku. Skúste to prosím znova.",
+    "muscleLabel": "Cieľová svalová skupina:",
+    "equipmentLabel": "Vybavenie:",
+    "descriptionLabel": "Prehľad",
+    "imgAlt": "Ukážka cvičenia IMG",
+    "button": "Pridať do tréningu"
+  }
+}
