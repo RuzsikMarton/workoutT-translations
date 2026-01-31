@@ -28,6 +28,34 @@
     "name": "Fekvőtámasz",
     "description": "A fekvőtámasz egy testsúlyos gyakorlat, amely erősíti a mellkast, a vállakat és a törzset."
   },
+  "dumbbell-bench-press": {
+    "name": "Kézi súlyzós fekvenyomás",
+    "description": "A kézi súlyzós fekvenyomás egy összetett gyakorlat, amely a mellkast, a vállakat és a tricepszet célozza meg kézi súlyzókkal."
+  },
+  "dumbell-fly": {
+    "name": "Kézi súlyzós tárogatás",
+    "description": "A kézi súlyzós tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg kézi súlyzókkal."
+  },
+  "dumbbell-incline-press": {
+    "name": "Ferde padon végzett kézi súlyzós nyomás",
+    "description": "A ferde padon végzett kézi súlyzós nyomás egy összetett gyakorlat, amely a felső mellkast, a vállakat és a tricepszet célozza meg kézi súlyzókkal."
+  },
+  "high-cable-crossover": {
+    "name": "Magas kábelkereszt",
+    "description": "A magas kábelkereszt egy izolációs gyakorlat, amely a felső mellizomzatot célozza meg kábelgéppel."
+  },
+  "low-cable-crossover": {
+    "name": "Alacsony kábelkereszt",
+    "description": "Az alacsony kábelkereszt egy izolációs gyakorlat, amely az alsó mellizomzatot célozza meg kábelgéppel."
+  },
+  "pec-deck-fly": {
+    "name": "Pec Deck tárogatás",
+    "description": "A Pec Deck tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg pec deck géppel."
+  },
+  "chest-dips": {
+    "name": "Mellkasi tolódzkodás",
+    "description": "A mellkasi tolódzkodás egy testsúlyos gyakorlat, amely az alsó mellkast, a tricepszet és a vállakat célozza meg."
+  },
   "squat": {
     "name": "Guggolás",
     "description": "A guggolás egy alapvető alsótest gyakorlat, amely a combfeszítőket, combhajlítókat és a farizomzatot célozza meg."

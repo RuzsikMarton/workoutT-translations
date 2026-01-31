@@ -28,6 +28,34 @@
     "name": "Push Ups",
     "description": "Push-ups are a bodyweight exercise that strengthens the chest, shoulders, and core."
   },
+  "dumbbell-bench-press": {
+    "name": "Dumbbell Bench Press",
+    "description": "The dumbbell bench press is a compound exercise that targets the chest, shoulders, and triceps using dumbbells."
+  },
+  "dumbbell-fly": {
+    "name": "Dumbbell Fly",
+    "description": "The dumbbell fly is an isolation exercise that targets the chest muscles using dumbbells."
+  },
+  "dumbbell-incline-press": {
+    "name": "Dumbbell Incline Press",
+    "description": "The dumbbell incline press is a compound exercise that targets the upper chest, shoulders, and triceps using dumbbells."
+  },
+  "high-cable-crossover": {
+    "name": "High Cable Crossover",
+    "description": "The high cable crossover is an isolation exercise that targets the upper chest muscles using a cable machine."
+  },
+  "low-cable-crossover": {
+    "name": "Low Cable Crossover",
+    "description": "The low cable crossover is an isolation exercise that targets the lower chest muscles using a cable machine."
+  },
+  "pec-deck-fly": {
+    "name": "Pec Deck Fly",
+    "description": "The pec deck fly is an isolation exercise that targets the chest muscles using a pec deck machine."
+  },
+  "chest-dips": {
+    "name": "Chest Dips",
+    "description": "Chest dips are a bodyweight exercise that targets the lower chest, triceps, and shoulders."
+  },
   "squat": {
     "name": "Squats",
     "description": "The squat is a fundamental lower body exercise targeting the quadriceps, hamstrings, and glutes."

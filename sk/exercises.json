@@ -28,6 +28,34 @@
     "name": "Kliky",
     "description": "Kliky sú cvičenie s vlastnou hmotnosťou, ktoré posilňuje hrudník, ramená a jadro."
   },
+  "dumbbell-bench-press": {
+    "name": "Tlaky na lavičke s činkami",
+    "description": "Tlaky na lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na hrudník, ramená a tricepsy pomocou činiek."
+  },
+  "dumbbell-fly": {
+    "name": "Rozpažovanie s činkami",
+    "description": "Rozpažovanie s činkami je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou činiek."
+  },
+  "dumbbell-incline-press": {
+    "name": "Tlaky na šikmej lavičke s činkami",
+    "description": "Tlaky na šikmej lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na horný hrudník, ramená a tricepsy pomocou činiek."
+  },
+  "high-cable-crossover": {
+    "name": "Vysoký kríž na kladke",
+    "description": "Vysoký kríž na kladke je izolačné cvičenie, ktoré zacieľuje na horné svaly hrudníka pomocou kladkového stroja."
+  },
+   "low-cable-crossover": {
+    "name": "Nízky kríž na kladke",
+    "description": "Nízky kríž na kladke je izolačné cvičenie, ktoré zacieľuje na dolné svaly hrudníka pomocou kladkového stroja."
+  },
+  "pec-deck-fly": {
+    "name": "Rozpažovanie na Pec Deck stroji",
+    "description": "Rozpažovanie na Pec Deck stroji je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou Pec Deck stroja."
+  },
+  "chest-dips": {
+    "name": "Dipy na hrudník",
+    "description": "Dipy na hrudník sú cvičenie s vlastnou hmotnosťou, ktoré zacieľuje na dolný hrudník, tricepsy a ramená."
+  },
   "squat": {
     "name": "Drepy",
     "description": "Drep je základné cvičenie dolnej časti tela zamerané na štvorhlavý sval, ohýbače kolien a sedacie svaly."
