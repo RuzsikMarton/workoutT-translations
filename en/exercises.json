@@ -22,39 +22,71 @@
   },
   "bench-press": {
     "name": "Bench Press",
-    "description": "The bench press is a compound exercise that targets the chest, shoulders, and triceps."
+    "description": "The bench press is a compound exercise that targets the chest, shoulders, and triceps. Overall, the bench press effectively targets multiple muscle groups in the upper body and is a valuable addition to any strength training routine."
+  },
+  "dumbbell-bench-press": {
+    "name": "Dumbbell Bench Press",
+    "description": "The dumbbell bench press is a compound exercise that targets the chest using dumbbells. Your chest muscle are the main muscles targeted by the exercise, but as an added bonus it also works your anterior deltoid and triceps."
+  },
+  "incline-barbell-press": {
+    "name": "Incline Barbell Press",
+    "description": "The incline barbell press is a compound exercise that targets the upper chest, shoulders, and triceps. The movement is typically performed on an incline bench raised at an angle of about 30 to 45 degrees."
+  },
+  "dumbbell-incline-press": {
+    "name": "Dumbbell Incline Press",
+    "description": "The dumbbell incline press is a compound exercise that targets the upper chest, shoulders, and triceps using dumbbells. It is performed on an incline bench set at a 30-45 degree angle."
   },
   "push-up": {
     "name": "Push Ups",
     "description": "Push-ups are a bodyweight exercise that strengthens the chest, shoulders, and core."
   },
-  "dumbbell-bench-press": {
-    "name": "Dumbbell Bench Press",
-    "description": "The dumbbell bench press is a compound exercise that targets the chest, shoulders, and triceps using dumbbells."
-  },
   "dumbbell-fly": {
     "name": "Dumbbell Fly",
-    "description": "The dumbbell fly is an isolation exercise that targets the chest muscles using dumbbells."
-  },
-  "dumbbell-incline-press": {
-    "name": "Dumbbell Incline Press",
-    "description": "The dumbbell incline press is a compound exercise that targets the upper chest, shoulders, and triceps using dumbbells."
+    "description": "The dumbbell fly is an isolation exercise that targets the chest muscles using dumbbells. This exercise is commonly included in chest-focused workouts to help develop muscle definition, strength, and flexibility in the chest area."
   },
   "high-cable-crossover": {
     "name": "High Cable Crossover",
-    "description": "The high cable crossover is an isolation exercise that targets the upper chest muscles using a cable machine."
+    "description": "The high cable crossover is an isolation exercise that targets the chest muscles using a cable machine. It involves using a cable machine with the pulleys set to the highest position and crossing the arms in front of the body at the end of the movement. This move targets the pecs, specifically the lower, inner and outer areas, while also working the shoulders and triceps as secondary muscles."
   },
   "low-cable-crossover": {
     "name": "Low Cable Crossover",
-    "description": "The low cable crossover is an isolation exercise that targets the lower chest muscles using a cable machine."
+    "description": "The low cable crossover is an isolation exercise that targets the chest muscles, especially the upper and inner regions using a cable machine. It involves using a cable machine with the reels set to the lowest height and then crossing the arms in front of the chest while keeping the elbows slightly bent."
   },
   "pec-deck-fly": {
     "name": "Pec Deck Fly",
-    "description": "The pec deck fly is an isolation exercise that targets the chest muscles using a pec deck machine."
+    "description": "The pec deck fly is an isolation exercise that targets the chest muscles using a pec deck machine. The machine acts as a stabilizer here, emphasizing the pectoralis major and pectoralis minor muscles in the chest. This isolation exercise, which combines pushing and compression movements, helps develop and strengthen the chest muscles."
   },
   "chest-dips": {
     "name": "Chest Dips",
-    "description": "Chest dips are a bodyweight exercise that targets the lower chest, triceps, and shoulders."
+    "description": "Chest dips are a bodyweight exercise that targets the lower chest, triceps, and shoulders. This exercise is performed using parallel bars."
+  },
+  "dumbbell-curl": {
+    "name": "Dumbbell Curl",
+    "description": "The dumbbell curl is an isolation exercise that targets the biceps muscles using dumbbells, to build muscle and strength in the arms. The exercise can be performed in a variety of ways, including alternating arms, performing both arms at the same time."
+  },
+  "barbell-curl": {
+    "name": "Barbell Curl",
+    "description": "The barbell curl is an isolation exercise that targets the biceps muscles in the upper arms using a barbell. This exercise is typically performed while standing with feet shoulder-width apart and the barbell held at arm’s length in front of the body."
+  },
+  "hammer-curl": {
+    "name": "Hammer Curl",
+    "description": "The hammer curl is an isolation exercise that targets the biceps muscles, particularly the brachialis and brachioradialis muscles, using dumbbells. The exercise is performed by holding the dumbbells with a neutral grip (palms facing each other) and curling them towards the shoulders."
+  },
+  "rope-hammer-curl": {
+    "name": "Cable Hammer Curl",
+    "description": "The cable hammer curl is an isolation exercise that targets the biceps muscles using a cable machine. The primary target of the cable hammer curl movement is the brachialis and brachioradialis muscles. The exercise is performed standing with feet shoulder-width apart and holding the cable machine with rope attachment with a neutral grip (palms facing each other)."
+  },
+  "cable-biceps-curl": {
+    "name": "Cable Biceps Curl",
+    "description": "The cable biceps curl is an isolation exercise that targets the biceps muscles using a cable machine. The primary target of cable curl movement is the biceps brachii muscle. The exercise is performed standing with feet shoulder-width apart and holding the cable machine handle with palms facing upward."
+  },
+  "incline-biceps-curl": {
+    "name": "Incline Dumbbell Biceps Curl",
+    "description": "The incline dumbbell biceps curl is an isolation exercise that targets the biceps muscles using dumbbells while lying on an incline bench. The primary target of the incline dumbbell biceps curl movement is the biceps brachii muscle. The exercise is performed by sitting on an incline bench set at a 45-degree angle and holding the dumbbells with palms facing upward."
+  },
+  "z-bar-curl": {
+    "name": "Z-Bar Curl",
+    "description": "The Z-bar curl is an isolation exercise that targets the biceps muscles using a Z-bar (EZ curl bar). The primary target of the Z-bar curl movement is the biceps brachii muscle. The exercise is performed standing with feet shoulder-width apart and holding the Z-bar with an underhand grip (palms facing upward)."
   },
   "squat": {
     "name": "Squats",
@@ -79,14 +111,6 @@
   "pushdown": {
     "name": "Tricep Pushdown",
     "description": "The tricep pushdown is an isolation exercise that targets the triceps muscles using a cable machine."
-  },
-  "dumbbell-curl": {
-    "name": "Dumbbell Curl",
-    "description": "The dumbbell curl is an isolation exercise that targets the biceps muscles using dumbbells."
-  },
-  "barbell-curl": {
-    "name": "Barbell Curl",
-    "description": "The barbell curl is an isolation exercise that targets the biceps muscles using a barbell."
   },
   "dumbbell-lateral-raise": {
     "name": "Dumbbell Lateral Raise",

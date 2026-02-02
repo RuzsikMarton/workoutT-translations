@@ -22,39 +22,71 @@
   },
   "bench-press": {
     "name": "Tlaky na lavičke",
-    "description": "Tlaky na lavičke sú komplexné cvičenie, ktoré zacieľuje na hrudník, ramená a tricepsy."
+    "description": "Tlaky na lavičke sú komplexné cvičenie, ktoré zacieľuje na hrudník, ramená a tricepsy. Celkovo tlaky na lavičke efektívne zacieľujú na viacero svalových skupín hornej časti tela a sú cenným doplnkom každej silovej tréningovej rutiny."
+  },
+  "dumbbell-bench-press": {
+    "name": "Tlaky na lavičke s činkami",
+    "description": "Tlaky na lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na hrudník pomocou činiek. Svaly hrudníka sú hlavnými svalmi, na ktoré cvičenie cieli, ale ako pridaný bonus tiež posilňuje predný deltový sval a tricepsy."
+  },
+  "incline-barbell-press": {
+    "name": "Tlaky na šikmej lavičke s hriadeľovou činkou",
+    "description": "Tlaky na šikmej lavičke s hriadeľovou činkou sú komplexné cvičenie, ktoré zacieľuje na horný hrudník, ramená a tricepsy. Pohyb sa zvyčajne vykonáva na šikmej lavičke zdvihnutej v uhle približne 30 až 45 stupňov."
+  },
+  "dumbbell-incline-press": {
+    "name": "Tlaky na šikmej lavičke s činkami",
+    "description": "Tlaky na šikmej lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na horný hrudník, ramená a tricepsy pomocou činiek. Cvičí sa na šikmej lavičke nastavenej v uhle 30-45 stupňov."
   },
   "push-up": {
     "name": "Kliky",
     "description": "Kliky sú cvičenie s vlastnou hmotnosťou, ktoré posilňuje hrudník, ramená a jadro."
   },
-  "dumbbell-bench-press": {
-    "name": "Tlaky na lavičke s činkami",
-    "description": "Tlaky na lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na hrudník, ramená a tricepsy pomocou činiek."
-  },
   "dumbbell-fly": {
     "name": "Rozpažovanie s činkami",
-    "description": "Rozpažovanie s činkami je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou činiek."
-  },
-  "dumbbell-incline-press": {
-    "name": "Tlaky na šikmej lavičke s činkami",
-    "description": "Tlaky na šikmej lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na horný hrudník, ramená a tricepsy pomocou činiek."
+    "description": "Rozpažovanie s činkami je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou činiek. Toto cvičenie je bežne zahrnuté v tréningoch zameraných na hrudník, aby pomohlo rozvíjať svalovú definíciu, silu a flexibilitu v oblasti hrudníka."
   },
   "high-cable-crossover": {
     "name": "Vysoký kríž na kladke",
-    "description": "Vysoký kríž na kladke je izolačné cvičenie, ktoré zacieľuje na horné svaly hrudníka pomocou kladkového stroja."
+    "description": "Vysoký kríž na kladke je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou kladkového stroja. Zahŕňa použitie kladkového stroja s kladkami nastavenými na najvyššiu pozíciu a kríženie rúk pred telom na konci pohybu. Tento pohyb zacieľuje na prsné svaly, konkrétne na dolné, vnútorné a vonkajšie oblasti, pričom ako sekundárne svaly posilňuje aj ramená a tricepsy."
   },
    "low-cable-crossover": {
     "name": "Nízky kríž na kladke",
-    "description": "Nízky kríž na kladke je izolačné cvičenie, ktoré zacieľuje na dolné svaly hrudníka pomocou kladkového stroja."
+    "description": "Nízky kríž na kladke je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka, najmä na horné a vnútorné oblasti pomocou kladkového stroja. Zahŕňa použitie kladkového stroja s navijakmi nastavenými na najnižšiu výšku a potom kríženie rúk pred hrudníkom pri mierne ohnutých lakťoch."
   },
   "pec-deck-fly": {
     "name": "Rozpažovanie na Pec Deck stroji",
-    "description": "Rozpažovanie na Pec Deck stroji je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou Pec Deck stroja."
+    "description": "Rozpažovanie na Pec Deck stroji je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou Pec Deck stroja. Stroj tu slúži ako stabilizátor, zdôrazňujúc veľký a malý prsníkový sval v hrudníku. Toto izolačné cvičenie, ktoré kombinuje tlačové a stláčacie pohyby, pomáha rozvíjať a posilňovať svaly hrudníka."
   },
   "chest-dips": {
     "name": "Dipy na hrudník",
-    "description": "Dipy na hrudník sú cvičenie s vlastnou hmotnosťou, ktoré zacieľuje na dolný hrudník, tricepsy a ramená."
+    "description": "Dipy na hrudník sú cvičenie s vlastnou hmotnosťou, ktoré zacieľuje na dolný hrudník, tricepsy a ramená. Toto cvičenie je vynikajúce na zvýšenie sily a svalovej hmoty v hornej časti tela."
+  },
+  "dumbbell-curl": {
+    "name": "Bicepsový zdvih s činkami",
+    "description": "Bicepsový zdvih s činkami je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly pomocou činiek, na budovanie svalov a sily v rukách. Cvičenie je možné vykonávať rôznymi spôsobmi, vrátane striedavého zdvíhania rúk alebo súčasného cvičenia oboch rúk."
+  },
+  "barbell-curl": {
+    "name": "Bicepsový zdvih s hriadeľovou činkou",
+    "description": "Bicepsový zdvih s hriadeľovou činkou je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly v hornej časti rúk pomocou hriadeľovej činky. Toto cvičenie sa zvyčajne vykonáva v stoji s nohami na šírku ramien a hriadeľovou činkou drženou na dĺžku rúk pred telom."
+  },
+  "hammer-curl": {
+    "name": "Kladivový zdvih",
+    "description": "Kladivový zdvih je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly, najmä na brachialis a brachioradialis svaly, pomocou činiek. Cvičenie sa vykonáva držaním činiek neutrálnym úchopom (dlaňami smerujúcimi k sebe) a ich zdvíhaním smerom k ramenám."
+  },
+  "rope-hammer-curl": {
+    "name": "Kladivový zdvih s lanom",
+    "description": "Kladivový zdvih s lanom je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly, najmä na brachialis a brachioradialis svaly, pomocou kladkového stroja s lanom. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním lana kladky neutrálnym úchopom (dlaňami smerujúcimi k sebe), pričom sa lano zdvíha smerom k ramenám."
+  },
+  "cable-biceps-curl": {
+    "name": "Bicepsový zdvih na kladke",
+    "description": "Bicepsový zdvih na kladke je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly pomocou kladkového stroja. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s dlaňami smerujúcimi nahor."
+  },
+  "incline-biceps-curl": {
+    "name": "Bicepsový zdvih na šikmej lavičke s činkami",
+    "description": "Bicepsový zdvih na šikmej lavičke s činkami je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly pomocou činiek pri ležaní na šikmej lavičke. Cvičenie sa vykonáva sedením na šikmej lavičke nastavenou v uhle 45 stupňov a držaním činiek s dlaňami smerujúcimi nahor a zdvíhaním závaží smerom k ramenám, jednu ruku naraz."
+  },
+  "z-bar-curl": {
+    "name": "Z-hriadeľový bicepsový zdvih",
+    "description": "Z-hriadeľový bicepsový zdvih je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly v hornej časti rúk pomocou Z-hriadeľovej činky. Toto cvičenie sa zvyčajne vykonáva v stoji s nohami na šírku ramien a Z-hriadeľovou činkou drženou na dĺžku rúk pred telom."
   },
   "squat": {
     "name": "Drepy",
@@ -79,14 +111,6 @@
   "pushdown": {
     "name": "Stláčanie kladky na tricepsy",
     "description": "Stláčanie kladky na tricepsy je izolačné cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja."
-  },
-  "dumbbell-curl": {
-    "name": "Bicepsový zdvih s činkami",
-    "description": "Bicepsový zdvih s činkami je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly pomocou činiek."
-  },
-  "barbell-curl": {
-    "name": "Bicepsový zdvih s hriadeľovou činkou",
-    "description": "Bicepsový zdvih s hriadeľovou činkou je izolačné cvičenie, ktoré zacieľuje na bicepsové svaly pomocou hriadeľovej činky."
   },
   "dumbbell-lateral-raise": {
     "name": "Bočné zdvihy s činkami",

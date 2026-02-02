@@ -22,39 +22,71 @@
   },
   "bench-press": {
     "name": "Fekvenyomás",
-    "description": "A fekvenyomás egy összetett gyakorlat, amely a mellkast, a vállakat és a tricepszet célozza meg."
+    "description": "A fekvenyomás egy összetett gyakorlat, amely a mellkast, a vállakat és a tricepszet célozza meg. Összességében a fekvenyomás hatékonyan célozza meg a felsőtest több izomcsoportját, és értékes kiegészítője bármilyen erőnléti edzésnek."
+  },
+   "dumbbell-bench-press": {
+    "name": "Kézi súlyzós fekvenyomás",
+    "description": "A kézi súlyzós fekvenyomás egy összetett gyakorlat, amely a mellkast célozza meg kézi súlyzókkal. A mellizomzat a fő célzott izomcsoport, de bónuszként az elülső deltaizmot és a tricepszet is megdolgoztatja."
+  },
+  "incline-barbell-press": {
+    "name": "Ferde padon végzett rúdsúlyzós nyomás",
+    "description": "A ferde padon végzett rúdsúlyzós nyomás egy összetett gyakorlat, amely a felső mellkast, a vállakat és a tricepszet célozza meg. A mozdulatot általában egy 30-45 fokos szögben megemelt ferde padon végzik."
+  },
+  "dumbbell-incline-press": {
+    "name": "Ferde padon végzett kézi súlyzós nyomás",
+    "description": "A ferde padon végzett kézi súlyzós nyomás egy összetett gyakorlat, amely a felső mellkast, a vállakat és a tricepszet célozza meg kézi súlyzókkal. Egy 30-45 fokos szögben beállított ferde padon végzik."
   },
   "push-up": {
     "name": "Fekvőtámasz",
     "description": "A fekvőtámasz egy testsúlyos gyakorlat, amely erősíti a mellkast, a vállakat és a törzset."
   },
-  "dumbbell-bench-press": {
-    "name": "Kézi súlyzós fekvenyomás",
-    "description": "A kézi súlyzós fekvenyomás egy összetett gyakorlat, amely a mellkast, a vállakat és a tricepszet célozza meg kézi súlyzókkal."
-  },
-  "dumbell-fly": {
+  "dumbbell-fly": {
     "name": "Kézi súlyzós tárogatás",
-    "description": "A kézi súlyzós tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg kézi súlyzókkal."
-  },
-  "dumbbell-incline-press": {
-    "name": "Ferde padon végzett kézi súlyzós nyomás",
-    "description": "A ferde padon végzett kézi súlyzós nyomás egy összetett gyakorlat, amely a felső mellkast, a vállakat és a tricepszet célozza meg kézi súlyzókkal."
+    "description": "A kézi súlyzós tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg kézi súlyzókkal. Ez a gyakorlat gyakran szerepel mellkasra fókuszáló edzésekben, hogy segítsen fejleszteni a mellizomzat definícióját, erejét és rugalmasságát."
   },
   "high-cable-crossover": {
     "name": "Magas kábelkereszt",
-    "description": "A magas kábelkereszt egy izolációs gyakorlat, amely a felső mellizomzatot célozza meg kábelgéppel."
+    "description": "A magas kábelkereszt egy izolációs gyakorlat, amely a mellizomzatot célozza meg kábelgéppel. A gyakorlat során a kábelgép csigáit a legmagasabb pozícióba állítják, és a mozdulat végén a karokat a test előtt keresztezik. Ez a mozdulat a mellizmokat célozza meg, különösen az alsó, belső és külső területeket, miközben másodlagos izomcsoportként a vállakat és a tricepszet is megdolgoztatja."
   },
   "low-cable-crossover": {
     "name": "Alacsony kábelkereszt",
-    "description": "Az alacsony kábelkereszt egy izolációs gyakorlat, amely az alsó mellizomzatot célozza meg kábelgéppel."
+    "description": "Az alacsony kábelkereszt egy izolációs gyakorlat, amely a mellizomzatot, különösen a felső és belső részeket célozza meg kábelgéppel. A gyakorlat során a kábelgép orsóit a legalacsonyabb magasságra állítják, majd a karokat keresztezik a mellkas előtt, miközben a könyököket enyhén hajlítva tartják."
   },
   "pec-deck-fly": {
     "name": "Pec Deck tárogatás",
-    "description": "A Pec Deck tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg pec deck géppel."
+    "description": "A Pec Deck tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg pec deck géppel. A gép itt stabilizátorként működik, kiemelve a nagy mellizom és a kis mellizom izmait a mellkasban. Ez az izolációs gyakorlat, amely toló és összenyomó mozdulatokat kombinál, segít fejleszteni és erősíteni a mellizomzatot."
   },
   "chest-dips": {
     "name": "Mellkasi tolódzkodás",
-    "description": "A mellkasi tolódzkodás egy testsúlyos gyakorlat, amely az alsó mellkast, a tricepszet és a vállakat célozza meg."
+    "description": "A mellkasi tolódzkodás egy testsúlyos gyakorlat, amely az alsó mellkast, a tricepszet és a vállakat célozza meg. Ez a gyakorlat kiválóan alkalmas az erő és az izomtömeg növelésére a felsőtestben."
+  },
+   "dumbbell-curl": {
+    "name": "Kézi súlyzós bicepsz hajlítás",
+    "description": "A kézi súlyzós bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg kézi súlyzókkal, az izmok és az erő fejlesztése érdekében. A gyakorlatot különböző módokon lehet végezni, beleértve a karok felváltott hajlítását vagy mindkét kar egyidejű edzését."
+  },
+  "barbell-curl": {
+    "name": "Rúdsúlyzós bicepsz hajlítás",
+    "description": "A rúdsúlyzós bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg a felső karokban rúdsúlyzó használatával. Ezt a gyakorlatot általában állva végzik, vállszélességű terpeszben, a rúdsúlyzót karhosszúságban tartva a test előtt."
+  },
+  "hammer-curl": {
+    "name": "Kalapács bicepsz hajlítás",
+    "description": "A kalapács bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait, különösen a brachialis és brachioradialis izmokat célozza meg kézi súlyzókkal. A gyakorlatot úgy végzik, hogy a kézi súlyzókat semleges fogással (tenyér egymás felé néz) tartják, és a vállak felé hajlítják."
+  },
+  "rope-hammer-curl": {
+    "name": "Kábel kalapács bicepsz hajlítás",
+    "description": "A kábel kalapács bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg kábelgéppel. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép kötél fogantyúját semleges fogással tartva."
+  },
+  "cable-biceps-curl": {
+    "name": "Kábel bicepsz hajlítás",
+    "description": "A kábel bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg kábelgéppel. A kábelhajlítás mozdulatának elsődleges célpontja a bicepsz brachii izom. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép fogantyúját felfelé néző tenyérrel tartva."
+  },
+  "incline-biceps-curl": {
+    "name": "Ferde padon végzett kézi súlyzós bicepsz hajlítás",
+    "description": "A ferde padon végzett kézi súlyzós bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg kézi súlyzókkal, miközben egy ferde padon fekszik. A ferde padon végzett kézi súlyzós bicepsz hajlítás mozdulatának elsődleges célpontja a bicepsz brachii izom. A gyakorlatot úgy végzik, hogy egy 45 fokos szögben beállított ferde padon ülnek, a kézi súlyzókat felfelé néző tenyérrel tartva, és a súlyokat felhúzzák a vállak felé, egy karonként."
+  },
+  "z-bar-curl": {
+    "name": "Z-rudas bicepsz hajlítás",
+    "description": "A Z-rudas bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg Z-rúddal (EZ curl bar). A Z-rudas bicepsz hajlítás mozdulatának elsődleges célpontja a bicepsz brachii izom. A gyakorlatot állva végzik, vállszélességű terpeszben, a Z-rudat felfelé néző tenyérrel tartva."
   },
   "squat": {
     "name": "Guggolás",
@@ -79,14 +111,6 @@
   "pushdown": {
     "name": "Tricepsz letolás",
     "description": "A tricepsz letolás egy izolációs gyakorlat, amely a tricepsz izmait célozza meg kábelgépen."
-  },
-  "dumbbell-curl": {
-    "name": "Kézi súlyzós bicepsz hajlítás",
-    "description": "A kézi súlyzós bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg kézi súlyzókkal."
-  },
-  "barbell-curl": {
-    "name": "Rúdsúlyzós bicepsz hajlítás",
-    "description": "A rúdsúlyzós bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg rúdsúlyzóval."
   },
   "dumbbell-lateral-raise": {
     "name": "Kézi súlyzós oldalemelés",
