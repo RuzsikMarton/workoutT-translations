@@ -44,6 +44,10 @@
     "name": "Dumbbell Fly",
     "description": "The dumbbell fly is an isolation exercise that targets the chest muscles using dumbbells. This exercise is commonly included in chest-focused workouts to help develop muscle definition, strength, and flexibility in the chest area."
   },
+  "smith-incline-press": {
+    "name": "Smith Machine Incline Press",
+    "description": "The Smith machine incline press is a compound exercise that targets the upper chest, shoulders, and triceps using a Smith machine. It is performed on an incline bench set at a 30-45 degree angle."
+  },
   "high-cable-crossover": {
     "name": "High Cable Crossover",
     "description": "The high cable crossover is an isolation exercise that targets the chest muscles using a cable machine. It involves using a cable machine with the pulleys set to the highest position and crossing the arms in front of the body at the end of the movement. This move targets the pecs, specifically the lower, inner and outer areas, while also working the shoulders and triceps as secondary muscles."
@@ -109,8 +113,16 @@
     "description": "The close-grip cable row is an exercise that targets the middle back and biceps using a close grip."
   },
   "pushdown": {
-    "name": "Tricep Pushdown",
-    "description": "The tricep pushdown is an isolation exercise that targets the triceps muscles using a cable machine."
+    "name": "Rope Pushdown",
+    "description": "The rope pushdown is an isolation exercise that targets the triceps muscles using a cable machine. It targets the triceps brachii, with a focus on the lateral and long heads."
+  },
+  "push-down": {
+    "name": "Pushdown",
+    "description": "The pushdown is an isolation exercise that targets the triceps muscles using a cable machine. This movement is performed using a cable machine with a straight bar or V-bar attachment."
+  },
+  "incline-ezbar-triceps": {
+    "name": "Incline EZ Bar Triceps Extension",
+    "description": "The incline EZ bar triceps extension is an exercise that targets the triceps muscles using an EZ curl bar while lying on an incline bench. The primary target of the incline EZ bar triceps extension movement is the triceps brachii muscle. The exercise is performed by lying on an incline bench set at a 30-45 degree angle and holding the EZ curl bar with an overhand grip (palms facing downward) and extending the arms upward."
   },
   "dumbbell-lateral-raise": {
     "name": "Dumbbell Lateral Raise",

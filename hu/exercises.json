@@ -44,6 +44,10 @@
     "name": "Kézi súlyzós tárogatás",
     "description": "A kézi súlyzós tárogatás egy izolációs gyakorlat, amely a mellizomzatot célozza meg kézi súlyzókkal. Ez a gyakorlat gyakran szerepel mellkasra fókuszáló edzésekben, hogy segítsen fejleszteni a mellizomzat definícióját, erejét és rugalmasságát."
   },
+  "smith-incline-press": {
+    "name": "Smith gépes ferde padon végzett nyomás",
+    "description": "A Smith gépes ferde padon végzett nyomás egy összetett gyakorlat, amely a felső mellkast, a vállakat és a tricepszet célozza meg Smith gép használatával. Egy 30-45 fokos szögben beállított ferde padon végzik."
+  },
   "high-cable-crossover": {
     "name": "Magas kábelkereszt",
     "description": "A magas kábelkereszt egy izolációs gyakorlat, amely a mellizomzatot célozza meg kábelgéppel. A gyakorlat során a kábelgép csigáit a legmagasabb pozícióba állítják, és a mozdulat végén a karokat a test előtt keresztezik. Ez a mozdulat a mellizmokat célozza meg, különösen az alsó, belső és külső területeket, miközben másodlagos izomcsoportként a vállakat és a tricepszet is megdolgoztatja."
@@ -109,8 +113,16 @@
     "description": "A szűk fogású evezés kábelgépen egy gyakorlat, amely a középső hát és a bicepsz izmait célozza meg szűk fogással."
   },
   "pushdown": {
-    "name": "Tricepsz letolás",
-    "description": "A tricepsz letolás egy izolációs gyakorlat, amely a tricepsz izmait célozza meg kábelgépen."
+    "name": "Kötél letolás",
+    "description": "A kötél letolás egy izolációs gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. A tricepsz brachii izmaira fókuszál, különösen a laterális és hosszú fejre."
+  },
+  "push-down": {
+    "name": "Letolás",
+    "description": "A letolás egy izolációs gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. Ezt a mozdulatot általában egy egyenes rúddal vagy V-rudas kiegészítővel végzik."
+  },
+  "incline-ezbar-triceps": {
+    "name": "Ferde padon végzett EZ rudas tricepsz nyújtás",
+    "description": "A ferde padon végzett EZ rudas tricepsz nyújtás egy gyakorlat, amely a tricepsz izmait célozza meg EZ hajlító rúddal, miközben egy ferde padon fekszik. A ferde padon végzett EZ rudas tricepsz nyújtás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot úgy végzik, hogy egy 30-45 fokos szögben beállított ferde padon fekszenek, az EZ hajlító rudat tenyérrel lefelé néző fogással tartva, és a karokat felfelé nyújtják."
   },
   "dumbbell-lateral-raise": {
     "name": "Kézi súlyzós oldalemelés",
