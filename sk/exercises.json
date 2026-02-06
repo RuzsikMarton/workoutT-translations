@@ -96,6 +96,26 @@
     "name": "Drepy",
     "description": "Drep je základné cvičenie dolnej časti tela zamerané na štvorhlavý sval, ohýbače kolien a sedacie svaly. Je to komplexné cvičenie, čo znamená, že súčasne pracuje na viacerých svalových skupinách. Cvičenie sa vykonáva pomocou hriadeľovej činky, ktorá je dlhá, rovná tyč zaťažená kotúčmi."
   },
+  "hack-squats": {
+    "name": "Hack drepy",
+    "description": "Hack drepy sú komplexné cvičenie, ktoré zacieľuje na kvadricepsy, hamstringy a sedacie svaly pomocou hack squat stroja. Cvičenie sa vykonáva tak, že stojíte na platforme stroja s ramenami pod vankúšmi a potom drepnete dolu, pričom chrbát držíte opretý o operadlo."
+  },
+  "leg-curl": {
+    "name": "Zakopávání na stroji",
+    "description": "Zakopávanie na stroji je izolačné cvičenie, ktoré zacieľuje na hamstringy pomocou stroja na zakopávanie. Cvičenie sa vykonáva ležaním na bruchu na lavici stroja s členkami pod valcom a potom ohýbaním kolien, pričom zdvíhate závažie smerom k sedacím svalom."
+  },
+  "leg-extension": {
+    "name": "Předkopávání na stroji",
+    "description": "Predkopávanie na stroji je izolačné cvičenie, ktoré zacieľuje na kvadricepsy pomocou stroja na predkopávanie. Cvičenie sa vykonáva sedením na lavici stroja s členkami pod valcom a potom vystieraním nôh, pričom zdvíhate závažie smerom nahor."
+  },
+  "leg-press": {
+    "name": "Tlak na nohy",
+    "description": "Tlak na nohy je komplexné cvičenie, ktoré zacieľuje na kvadricepsy, hamstringy a sedacie svaly pomocou stroja leg press. Cvičenie sa vykonáva sedením na lavici stroja s nohami na platforme a potom tlačením platformy od tela, pričom vystierate nohy."
+  },
+  "lunges": {
+    "name": "Výpady",
+    "description": "Výpady sú komplexné cvičenie, ktoré zacieľuje na kvadricepsy, hamstringy a sedacie svaly pomocou činiek. Cvičenie sa vykonáva tak, že urobíte krok vpred jednou nohou a znížite telo dolu, kým zadné koleno takmer nedotkne zem, a potom sa vrátite do východiskovej pozície."
+  },
   "deadlift": {
     "name": "Mŕtvy ťah",
     "description": "Mŕtvy ťah je komplexné cvičenie, ktoré zacieľuje na celý zadný reťazec, vrátane chrbta, sedacích svalov a ohýbačov kolien."
@@ -112,6 +132,10 @@
     "name": "Veslovanie na kladke s úzkym úchopom",
     "description": "Veslovanie na kladke s úzkym úchopom je cvičenie, ktoré zacieľuje na strednú časť chrbta a bicepsy pomocou úzkeho úchopu."
   },
+  "assisted-pull-up": {
+    "name": "Asistovaný príťah na hrazde",
+    "description": "Asistovaný príťah na hrazde je cvičenie, ktoré zacieľuje na hornú časť chrbta a bicepsy pomocou asistovaného príťahu na hrazde alebo odporových pásov, ktoré poskytujú podporu počas pohybu."
+  },
   "pushdown": {
     "name": "Káblové stláčanie na tricepsy",
     "description": "Káblové stláčanie na tricepsy je izolačné cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Zameriava sa na triceps brachii, s dôrazom na laterálnu a dlhú hlavu."
@@ -124,8 +148,44 @@
     "name": "Tricepsové predlžovanie na šikmej lavičke s EZ-hriadeľou",
     "description": "Tricepsové predlžovanie na šikmej lavičke s EZ-hriadeľou je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou EZ-hriadeľovej činky pri ležaní na šikmej lavičke. Hlavným cieľom pohybu tricepsového predlžovania na šikmej lavičke s EZ-hriadeľou je triceps brachii sval. Cvičenie sa vykonáva ležaním na šikmej lavičke nastavenou v uhle 30-45 stupňov a držaním EZ-hriadeľovej činky s nadhmatom (dlaňami smerujúcimi nadol) a predlžovaním rúk nahor."
   },
+  "onearm-triceps-pushdown": {
+    "name": "Jednoručné stláčanie na tricepsy",
+    "description": "Jednoručné stláčanie na tricepsy je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Hlavným cieľom pohybu jednoručného stláčania na tricepsy je triceps brachii sval. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s nadhmatom (dlaňou smerujúcou nadol) a predlžovaním ruky nadol."
+  },
+  "lying-barbell-tricep-extension": {
+    "name": "Ležiace tricepsové predpažovanie s hriadeľovou činkou",
+    "description": "Ležiace tricepsové predpažovanie s hriadeľovou činkou je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou hriadeľovej činky pri ležaní na vodorovnej lavičke. Hlavným cieľom pohybu ležiaceho tricepsového predpažovania s hriadeľovou činkou je triceps brachii sval. Cvičenie sa vykonáva ležaním na vodorovnej lavičke a držaním hriadeľovej činky s nadhmatom (dlaňami smerujúcimi nadol) a predpažovaním rúk nahor."
+  },
+  "dumbbell-skull-crushers": {
+    "name": "Tricepsové predlžovanie s činkami",
+    "description": "Tricepsové predlžovanie s činkami je izolačné cvičenie, ktoré zacieľuje na tricepsové svaly pomocou činiek. Hlavným cieľom pohybu tricepsového predlžovania s činkami je triceps brachii sval. Cvičenie sa vykonáva ležaním na vodorovnej lavičke a držaním činiek s nadhmatom (dlaňami smerujúcimi nadol) a predlžovaním rúk nahor."
+  },
+  "triceps-dips": {
+    "name": "Dipy na tricepsy",
+    "description": "Dipy na tricepsy sú cvičenie s vlastnou hmotnosťou, ktoré zacieľuje na tricepsové svaly, ramená a hrudník. Hlavným cieľom pohybu dipov na tricepsy je triceps brachii sval."
+  },
   "dumbbell-lateral-raise": {
     "name": "Bočné zdvihy s činkami",
     "description": "Bočné zdvihy s činkami sú izolačné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek."
-  }
+  },
+  "cable-lateral-raise": {
+    "name": "Bočné zdvihy na kladce",
+    "description": "Bočné zdvihy na kladke sú cvičenie, ktoré zacieľuje na ramenné svaly pomocou kladkového stroja. Bočné zdvihy na kladke zahŕňajú zdvíhanie paže do strany pomocou nízkej kladky a úchytu. Toto cvičenie poskytuje konštantné napätie na ramenné svaly počas pohybu, čo z neho robí efektívny spôsob, ako budovať silu a definíciu v ramenách."
+   },
+   "front-raise": {
+     "name": "Predné zdvihy s činkami",
+     "description": "Predné zdvihy s činkami sú izolačné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek. Hlavným cieľom pohybu predných zdvihov s činkami sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva státím s nohami na šírku ramien a držaním činiek v úrovni stehien s dlaňami smerujúcimi k telu, potom sa činky zdvíhajú pred telo, kým nie sú paže rovnobežné s podlahou."
+   },
+   "dumbbell-shoulder-press": {
+     "name": "Tlaky na ramená s činkami",
+     "description": "Tlaky na ramená s činkami sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek. Hlavným cieľom pohybu tlakov na ramená s činkami sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením alebo státím s nohami na šírku ramien a držaním činiek v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činky tlačia nad hlavu, kým nie sú paže úplne vystreté."
+   },
+   "lever-shoulder-press": {
+     "name": "Tlaky na ramená na pákovom stroji",
+     "description": "Tlaky na ramená na pákovom stroji sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou pákového stroja. Hlavným cieľom pohybu tlakov na ramená na pákovom stroji sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením na stroji s nohami plochými na podlahe a držaním rukovätí v úrovni ramien, potom sa rukoväte tlačia nad hlavu, kým nie sú paže úplne vystreté."
+   },
+   "military-press": {
+     "name": "Vojenské tlaky",
+     "description": "Vojenské tlaky sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou hriadeľovej činky. Hlavným cieľom pohybu vojenských tlaků sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva v stoji s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
+   }
 }

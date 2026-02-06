@@ -96,6 +96,26 @@
     "name": "Guggolás",
     "description": "A guggolás egy alapvető alsótest gyakorlat, amely a combfeszítőket, combhajlítókat és a farizomzatot célozza meg. Ez egy összetett gyakorlat, ami azt jelenti, hogy egyszerre több izomcsoportot is megdolgoztat. A gyakorlatot rúdsúlyzó használatával végzik, amely egy hosszú, egyenes rúd, amelyet tárcsákkal súlyoznak."
   },
+  "hack-squats": {
+    "name": "Hack guggolás",
+    "description": "A hack guggolás egy összetett gyakorlat, amely a combfeszítőket, combhajlítókat és a farizomzatot célozza meg hack guggoló géppel. A gyakorlatot úgy végzik, hogy a gép platformján állnak, a vállakat a párnák alá helyezik, majd guggolnak lefelé, miközben a hátukat a háttámlához szorítják."
+  },
+  "leg-curl": {
+    "name": "Lábhajlítás",
+    "description": "A lábhajlítás egy izolációs gyakorlat, amely a combhajlító izmokat célozza meg lábhajlító géppel. A gyakorlatot általában hason fekve végzik, a bokákat a gép párnáira helyezve, majd a lábakat hajlítva felhúzzák a farizmok felé."
+  },
+  "leg-extension": {
+    "name": "Lábnyújtás",
+    "description": "A lábnyújtás egy izolációs gyakorlat, amely a combfeszítő izmokat célozza meg lábnyújtó géppel. A gyakorlatot általában ülve végzik, a bokákat a gép párnáira helyezve, majd a lábakat kinyújtva előre emelik."
+  },
+  "lunges": {
+    "name": "Kitörés",
+    "description": "A kitörés egy összetett gyakorlat, amely a combfeszítőket, combhajlítókat és a farizomzatot célozza meg. A gyakorlatot úgy végzik, hogy előre lépnek az egyik lábbal, majd a testet lefelé engedik, amíg a hátsó térd majdnem érinti a talajt, majd visszatérnek a kiinduló helyzetbe."
+  },
+  "leg-press": {
+    "name": "Lábtoló",
+    "description": "A lábtoló egy összetett gyakorlat, amely a combfeszítőket, combhajlítókat és a farizomzatot célozza meg lábtoló géppel. A gyakorlatot úgy végzik, hogy a gép ülésén ülnek, a lábakat vállszélességben helyezik el a platformon, majd a platformot eltolják a testtől, miközben a lábakat kinyújtják."
+  },
   "deadlift": {
     "name": "Felhúzás",
     "description": "A felhúzás egy összetett gyakorlat, amely az egész hátsó láncot célozza meg, beleértve a hátat, a farizmokat és a combhajlítókat."
@@ -112,6 +132,10 @@
     "name": "Szűk fogású evezés kábelgépen",
     "description": "A szűk fogású evezés kábelgépen egy gyakorlat, amely a középső hát és a bicepsz izmait célozza meg szűk fogással."
   },
+  "assisted-pull-up": {
+    "name": "Segített húzódzkodás",
+    "description": "A segített húzódzkodás egy gyakorlat, amely a felső hát és a bicepsz izmait célozza meg egy segített húzódzkodó gép vagy ellenállási szalagok használatával, amelyek támogatást nyújtanak a mozdulat során."
+  },
   "pushdown": {
     "name": "Kötél letolás",
     "description": "A kötél letolás egy izolációs gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. A tricepsz brachii izmaira fókuszál, különösen a laterális és hosszú fejre."
@@ -124,8 +148,44 @@
     "name": "Ferde padon végzett EZ rudas tricepsz nyújtás",
     "description": "A ferde padon végzett EZ rudas tricepsz nyújtás egy gyakorlat, amely a tricepsz izmait célozza meg EZ hajlító rúddal, miközben egy ferde padon fekszik. A ferde padon végzett EZ rudas tricepsz nyújtás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot úgy végzik, hogy egy 30-45 fokos szögben beállított ferde padon fekszenek, az EZ hajlító rudat tenyérrel lefelé néző fogással tartva, és a karokat felfelé nyújtják."
   },
+  "onearm-triceps-pushdown": {
+    "name": "Egykaros tricepsz letolás",
+    "description": "Az egykaros tricepsz letolás egy gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. Az egykaros tricepsz letolás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép fogantyúját tenyérrel lefelé néző fogással tartva, és a kart lefelé nyújtják."
+  },
+  "lying-barbell-tricep-extension": {
+    "name": "Fekvő rúdsúlyzós tricepsz nyújtás",
+    "description": "A fekvő rúdsúlyzós tricepsz nyújtás egy gyakorlat, amely a tricepsz izmait célozza meg rúdsúlyzóval, miközben egy vízszintes padon fekszik. A fekvő rúdsúlyzós tricepsz nyújtás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot úgy végzik, hogy egy vízszintes padon fekszenek, a rúdsúlyzót tenyérrel lefelé néző fogással tartva, és a karokat felfelé nyújtják."
+  },
+  "dumbbell-skull-crushers": {
+    "name": "Kézi súlyzós tricepsz nyújtás",
+    "description": "A kézi súlyzós tricepsz nyújtás egy gyakorlat, amely a tricepsz izmait célozza meg kézi súlyzókkal, miközben egy vízszintes padon fekszik. A kézi súlyzós tricepsz nyújtás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot úgy végzik, hogy egy vízszintes padon fekszenek, a kézi súlyzókat tenyérrel lefelé néző fogással tartva, és a karokat felfelé nyújtják."
+  },
+  "triceps-dips": {
+    "name": "Tricepsz tolódzkodás",
+    "description": "A tricepsz tolódzkodás egy testsúlyos gyakorlat, amely a tricepsz izmait célozza meg. Ez a gyakorlat kiválóan alkalmas az erő és az izomtömeg növelésére a karok hátulján."
+  },
   "dumbbell-lateral-raise": {
     "name": "Kézi súlyzós oldalemelés",
     "description": "A kézi súlyzós oldalemelés egy izolációs gyakorlat, amely a vállak középső részét célozza meg kézi súlyzókkal."
-  }
+  },
+  "cable-lateral-raise": {
+    "name": "Kábel oldalemelés",
+    "description": "A kábel oldalemelés egy gyakorlat, amely a vállak középső részét célozza meg kábelgéppel. A kábel oldalemelés során a karokat oldalra emelik egy alacsony kábelcsigával és fogantyúval. Ez a gyakorlat folyamatos feszültséget biztosít a vállizmokra a mozdulat során, így hatékony módja a vállak erejének és definíciójának fejlesztésére."
+  },
+  "front-raise": {
+    "name": "Előreemelés",
+    "description": "Az előreemelés egy izolációs gyakorlat, amely a vállak elülső részét célozza meg kézi súlyzókkal vagy rúdsúlyzóval. Az előreemelés során a karokat előre emelik, amíg párhuzamosak nem lesznek a talajjal, majd lassan visszaengedik őket a kiinduló helyzetbe."
+  },
+  "dumbbell-shoulder-press": {
+    "name": "Kézi súlyzós vállnyomás",
+    "description": "A kézi súlyzós vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg kézi súlyzókkal. A kézi súlyzós vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot ülve vagy állva végzik, vállszélességű terpeszben, a kézi súlyzókat vállmagasságban tartva, tenyérrel előre néző fogással, majd a kézi súlyzókat fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
+   },
+   "lever-shoulder-press": {
+     "name": "Karos vállnyomás",
+     "description": "A karos vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg karos géppel. A karos vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot ülve végzik, lábakkal a talajon, a gép fogantyúit vállmagasságban tartva, majd a fogantyúkat fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
+    },
+    "military-press": {
+      "name": "Katona vállnyomás",
+      "description": "A katona vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg rúdsúlyzóval. A katona vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot állva végzik, vállszélességű terpeszben, a rúdsúlyzót vállmagasságban tartva, tenyérrel előre néző fogással, majd a rúdsúlyzót fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
+    }
 }
