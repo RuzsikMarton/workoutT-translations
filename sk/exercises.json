@@ -100,12 +100,16 @@
     "name": "Hack drepy",
     "description": "Hack drepy sú komplexné cvičenie, ktoré zacieľuje na kvadricepsy, hamstringy a sedacie svaly pomocou hack squat stroja. Cvičenie sa vykonáva tak, že stojíte na platforme stroja s ramenami pod vankúšmi a potom drepnete dolu, pričom chrbát držíte opretý o operadlo."
   },
+  "smith-squats": {
+    "name": "Drepy na Smithovom stroji",
+    "description": "Drepy na Smithovom stroji sú variáciou tradičného drepu, ktorý sa vykonáva pomocou Smithovho stroja. Smithov stroj je zariadenie, ktoré obsahuje činku pevne umiestnenú v oceľových koľajniciach, čo umožňuje vertikálny pohyb a poskytuje stabilitu a podporu počas cvičenia."
+  },
   "leg-curl": {
-    "name": "Zakopávání na stroji",
+    "name": "Zakopávanie na stroji",
     "description": "Zakopávanie na stroji je izolačné cvičenie, ktoré zacieľuje na hamstringy pomocou stroja na zakopávanie. Cvičenie sa vykonáva ležaním na bruchu na lavici stroja s členkami pod valcom a potom ohýbaním kolien, pričom zdvíhate závažie smerom k sedacím svalom."
   },
   "leg-extension": {
-    "name": "Předkopávání na stroji",
+    "name": "Predkopávanie na stroji",
     "description": "Predkopávanie na stroji je izolačné cvičenie, ktoré zacieľuje na kvadricepsy pomocou stroja na predkopávanie. Cvičenie sa vykonáva sedením na lavici stroja s členkami pod valcom a potom vystieraním nôh, pričom zdvíhate závažie smerom nahor."
   },
   "leg-press": {
@@ -136,6 +140,14 @@
     "name": "Asistovaný príťah na hrazde",
     "description": "Asistovaný príťah na hrazde je cvičenie, ktoré zacieľuje na hornú časť chrbta a bicepsy pomocou asistovaného príťahu na hrazde alebo odporových pásov, ktoré poskytujú podporu počas pohybu."
   },
+  "dumbbell-row": {
+    "name": "Veslovanie s činkami",
+    "description": "Veslovanie s činkami je cvičenie, ktoré cieli na svaly hornej časti chrbta a bicepsy pomocou činiek. Cvičenie sa vykonáva tak, že sa predkloníte v páse s jednou rukou opretou o lavičku a druhou rukou držíte činku, potom priťahujete činku smerom k trupu."
+  },
+  "pull-up": {
+    "name": "Príťah na hrazde",
+    "description": "Príťah na hrazde je cvičenie s vlastnou váhou, ktoré cieli na široké svaly chrbta a bicepsy. Cvičenie sa vykonáva tak, že sa zavesíte na hrazdu a priťahujete telo nahor, kým nie je brada nad hrazdou."
+  },
   "pushdown": {
     "name": "Káblové stláčanie na tricepsy",
     "description": "Káblové stláčanie na tricepsy je izolačné cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Zameriava sa na triceps brachii, s dôrazom na laterálnu a dlhú hlavu."
@@ -151,6 +163,10 @@
   "onearm-triceps-pushdown": {
     "name": "Jednoručné stláčanie na tricepsy",
     "description": "Jednoručné stláčanie na tricepsy je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Hlavným cieľom pohybu jednoručného stláčania na tricepsy je triceps brachii sval. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s nadhmatom (dlaňou smerujúcou nadol) a predlžovaním ruky nadol."
+  },
+  "seated-dumbbell-triceps-extension": {
+    "name": "Sediace tricepsové predpažovanie s činkou",
+    "description": "Sediace tricepsové predpažovanie s činkou je cvičenie, ktoré cieli na tricepsové svaly pomocou činky pri sedení. Hlavným cieľom pohybu sediaceho tricepsového predpažovania s činkou je triceps brachii sval. Cvičenie sa vykonáva sedením na lavičke s nohami na šírku ramien a držaním činky s nadhmatom (dlaňami smerujúcimi nadol) a predpažovaním rúk nahor."
   },
   "lying-barbell-tricep-extension": {
     "name": "Ležiace tricepsové predpažovanie s hriadeľovou činkou",
@@ -186,6 +202,14 @@
    },
    "military-press": {
      "name": "Vojenské tlaky",
-     "description": "Vojenské tlaky sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou hriadeľovej činky. Hlavným cieľom pohybu vojenských tlaků sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva v stoji s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
+     "description": "Vojenské tlaky sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou hriadeľovej činky. Hlavným cieľom pohybu vojenských tlakov sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva v stoji s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
+   },
+   "rear-delt-fly": {
+    "name": "Zadné deltové rozpažovanie",
+    "description": "Zadné deltové rozpažovanie je izolačné cvičenie, ktoré cieli na zadné deltové svaly pomocou činiek. Cvičenie sa vykonáva tak, že sa predkloníte v páse s činkami v rukách a potom zdvíhate ruky do strán, kým nie sú paže rovnobežné s podlahou."
+   },
+   "seated-barbell-shoulder-press": {
+     "name": "Tlaky na ramená s hriadeľovou činkou v sede",
+     "description": "Tlaky na ramená s hriadeľovou činkou v sede sú komplexné cvičenie, ktoré cieli na ramenné svaly pomocou hriadeľovej činky pri sedení. Hlavným cieľom pohybu tlakov na ramená s hriadeľovou činkou v sede sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením na lavičke s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
    }
 }

@@ -100,6 +100,10 @@
     "name": "Hack guggolás",
     "description": "A hack guggolás egy összetett gyakorlat, amely a combfeszítőket, combhajlítókat és a farizomzatot célozza meg hack guggoló géppel. A gyakorlatot úgy végzik, hogy a gép platformján állnak, a vállakat a párnák alá helyezik, majd guggolnak lefelé, miközben a hátukat a háttámlához szorítják."
   },
+  "smith-squats": {
+    "name": "Smith gépes guggolás",
+    "description": "A Smith gépes guggolás egy változata a hagyományos guggolásnak, amelyet Smith géppel végeznek. A Smith gép egy olyan eszköz, amely egy rúdsúlyzót tartalmaz, amely acél sínek között van rögzítve, lehetővé téve a függőleges mozgást, miközben stabilitást és támogatást nyújt a gyakorlat során."
+  },
   "leg-curl": {
     "name": "Lábhajlítás",
     "description": "A lábhajlítás egy izolációs gyakorlat, amely a combhajlító izmokat célozza meg lábhajlító géppel. A gyakorlatot általában hason fekve végzik, a bokákat a gép párnáira helyezve, majd a lábakat hajlítva felhúzzák a farizmok felé."
@@ -136,6 +140,14 @@
     "name": "Segített húzódzkodás",
     "description": "A segített húzódzkodás egy gyakorlat, amely a felső hát és a bicepsz izmait célozza meg egy segített húzódzkodó gép vagy ellenállási szalagok használatával, amelyek támogatást nyújtanak a mozdulat során."
   },
+  "dumbbell-row": {
+    "name": "Kézi súlyzós evezés",
+    "description": "A kézi súlyzós evezés egy gyakorlat, amely a felső hát és a bicepsz izmait célozza meg kézi súlyzókkal. A gyakorlatot úgy végzik, hogy a derékban előrehajolnak, egyik kezükkel egy padra támaszkodnak, míg a másik kezükben egy kézi súlyzót tartanak, majd a súlyzót a törzs felé húzzák."
+  },
+  "pull-up": {
+    "name": "Húzódzkodás",
+    "description": "A húzódzkodás egy testsúlyos gyakorlat, amely a hát széles izmait és a bicepsz izmait célozza meg. A gyakorlatot úgy végzik, hogy egy húzódzkodó rúdon lógva, a karokat hajlítva húzzák fel a testet, amíg az áll a rúd fölé nem kerül."
+  },
   "pushdown": {
     "name": "Kötél letolás",
     "description": "A kötél letolás egy izolációs gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. A tricepsz brachii izmaira fókuszál, különösen a laterális és hosszú fejre."
@@ -151,6 +163,10 @@
   "onearm-triceps-pushdown": {
     "name": "Egykaros tricepsz letolás",
     "description": "Az egykaros tricepsz letolás egy gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. Az egykaros tricepsz letolás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép fogantyúját tenyérrel lefelé néző fogással tartva, és a kart lefelé nyújtják."
+  },
+  "seated-dumbbell-triceps-extension": {
+    "name": "Ülő kézi súlyzós tricepsz nyújtás",
+    "description": "Az ülő kézi súlyzós tricepsz nyújtás egy gyakorlat, amely a tricepsz izmait célozza meg kézi súlyzóval, miközben egy vízszintes padon ülve végzik. Az ülő kézi súlyzós tricepsz nyújtás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot úgy végzik, hogy egy vízszintes padon ülnek, a kézi súlyzót tenyérrel lefelé néző fogással tartva, és a karokat felfelé nyújtják."
   },
   "lying-barbell-tricep-extension": {
     "name": "Fekvő rúdsúlyzós tricepsz nyújtás",
@@ -187,5 +203,13 @@
     "military-press": {
       "name": "Katona vállnyomás",
       "description": "A katona vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg rúdsúlyzóval. A katona vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot állva végzik, vállszélességű terpeszben, a rúdsúlyzót vállmagasságban tartva, tenyérrel előre néző fogással, majd a rúdsúlyzót fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
+    },
+    "rear-delt-fly": {
+     "name": "Hátsó deltás tárogatás gépen",
+     "description": "A hátsó deltás tárogatás gépen egy izolációs gyakorlat, amely a vállak hátsó részét célozza meg hátsó deltás tárogató géppel. A hátsó deltás tárogatás gépen mozdulatának elsődleges célpontja a deltaizom hátsó része. A gyakorlatot ülve végzik, mellkasukat a párnára szorítva, a fogantyúkat kinyújtott karokkal tartva, majd a fogantyúkat oldalra és hátra húzzák egy fordított tárogató mozdulatban."
+    },
+    "seated-barbell-shoulder-press": {
+      "name": "Ülő rúdsúlyzós vállnyomás",
+      "description": "Az ülő rúdsúlyzós vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg rúdsúlyzóval, miközben egy vízszintes padon ülve végzik. Az ülő rúdsúlyzós vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot úgy végzik, hogy egy vízszintes padon ülnek, a rúdsúlyzót vállmagasságban tartva, tenyérrel előre néző fogással, majd a rúdsúlyzót fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
     }
 }

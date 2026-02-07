@@ -100,6 +100,10 @@
     "name": "Hack Squats",
     "description": "The hack squat is a compound exercise that targets the quadriceps, hamstrings, and glutes using a hack squat machine. The exercise is performed by standing on the platform of the machine with the shoulders under the pads and then squatting down while keeping the back against the backrest."
   },
+  "smith-squats": {
+    "name": "Smith Machine Squats",
+    "description": "Smith machine squats are a variation of the traditional squat exercise performed using a Smith machine. The Smith machine is a piece of equipment that consists of a barbell fixed within steel rails, allowing for vertical movement while providing stability and support during the exercise."
+  },
   "leg-curl": {
     "name": "Leg Curl",
     "description": "The leg curl is an isolation exercise that targets the hamstring muscles using a leg curl machine. The exercise is performed by lying face down on the machine and curling the legs up towards the glutes against resistance."
@@ -118,7 +122,7 @@
   },
   "deadlift": {
     "name": "Deadlift",
-    "description": "The deadlift is a compound exercise that targets the entire posterior chain, including the back, glutes, and hamstrings."
+    "description": "The deadlift is a compound exercise that targets the entire posterior chain, including the back, glutes, and hamstrings. It is performed by lifting a loaded barbell off the ground from a bent-over position to a standing position."
   },
   "lat-pulldown": {
     "name": "Lat Pulldown",
@@ -136,6 +140,14 @@
     "name": "Assisted Pull-Up",
     "description": "The assisted pull-up is an exercise that targets the upper back and biceps using an assisted pull-up machine or resistance bands to provide support during the movement."
   },
+  "dumbbell-row": {
+    "name": "Dumbbell Row",
+    "description": "The dumbbell row is an exercise that targets the muscles of the upper back and biceps using dumbbells. The exercise is performed by bending at the waist with one hand supporting the body on a bench and the other hand holding a dumbbell, then rowing the dumbbell towards the torso."
+  },
+  "pull-up": {
+    "name": "Pull-Up",
+    "description": "The pull-up is a bodyweight exercise that targets the upper back and biceps. This exercise is performed by hanging from a pull-up bar with an overhand grip and pulling the body upward until the chin is above the bar."
+  },
   "pushdown": {
     "name": "Rope Pushdown",
     "description": "The rope pushdown is an isolation exercise that targets the triceps muscles using a cable machine. It targets the triceps brachii, with a focus on the lateral and long heads."
@@ -151,6 +163,10 @@
   "onearm-triceps-pushdown": {
     "name": "One-Arm Triceps Pushdown",
     "description": "The one-arm triceps pushdown is an exercise that targets the triceps muscles using a cable machine. The primary target of the one-arm triceps pushdown movement is the triceps brachii muscle. The exercise is performed standing with feet shoulder-width apart and holding the cable machine handle with an overhand grip (palm facing downward) and extending the arm downward."
+  },
+  "seated-dumbbell-triceps-extension": {
+    "name": "Seated Dumbbell Tricep Extension",
+    "description": "The seated dumbbell tricep extension is an exercise that targets the triceps muscles using a dumbbell while sitting on a bench. The primary target of the seated dumbbell tricep extension movement is the triceps brachii muscle. The exercise is performed by sitting on a bench with feet flat on the floor and holding a dumbbell with both hands behind the head, then extending the arms upward."
   },
   "lying-barbell-tricep-extension": {
     "name": "Lying Barbell Tricep Extension",
@@ -187,5 +203,13 @@
    "military-press": {
      "name": "Military Press",
      "description": "The military press is a compound exercise that targets the shoulder muscles using a barbell. The primary target of the military press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by standing with feet shoulder-width apart and holding the barbell at shoulder height with an overhand grip, then pressing the barbell overhead until the arms are fully extended."
+   },
+   "rear-delt-fly": {
+     "name": "Rear Delt Fly Machine",
+     "description": "The rear delt fly machine is an isolation exercise that targets the rear deltoid muscles using a rear delt fly machine. The primary target of the rear delt fly machine movement is the posterior deltoid muscle. The exercise is performed by sitting on the machine with chest against the pad and gripping the handles with arms extended, then pulling the handles outward and backward in a reverse fly motion."
+   },
+   "seated-barbell-shoulder-press": {
+     "name": "Seated Barbell Shoulder Press",
+     "description": "The seated barbell shoulder press is a compound exercise that targets the shoulder muscles using a barbell while sitting on a bench. The primary target of the seated barbell shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting on a bench with feet flat on the floor and holding the barbell at shoulder height with an overhand grip, then pressing the barbell overhead until the arms are fully extended."
    }
 }
