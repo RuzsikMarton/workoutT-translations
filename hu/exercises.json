@@ -76,7 +76,7 @@
     "name": "Kalapács bicepsz hajlítás",
     "description": "A kalapács bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait, különösen a brachialis és brachioradialis izmokat célozza meg kézi súlyzókkal. A gyakorlatot úgy végzik, hogy a kézi súlyzókat semleges fogással (tenyér egymás felé néz) tartják, és a vállak felé hajlítják."
   },
-  "rope-hammer-curl": {
+  "cable-hammer-curl": {
     "name": "Kábel kalapács bicepsz hajlítás",
     "description": "A kábel kalapács bicepsz hajlítás egy izolációs gyakorlat, amely a bicepsz izmait célozza meg kábelgéppel. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép kötél fogantyúját semleges fogással tartva."
   },
@@ -196,19 +196,19 @@
     "name": "Kézi súlyzós vállnyomás",
     "description": "A kézi súlyzós vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg kézi súlyzókkal. A kézi súlyzós vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot ülve vagy állva végzik, vállszélességű terpeszben, a kézi súlyzókat vállmagasságban tartva, tenyérrel előre néző fogással, majd a kézi súlyzókat fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
    },
-   "lever-shoulder-press": {
+  "lever-shoulder-press": {
      "name": "Karos vállnyomás",
      "description": "A karos vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg karos géppel. A karos vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot ülve végzik, lábakkal a talajon, a gép fogantyúit vállmagasságban tartva, majd a fogantyúkat fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
     },
-    "military-press": {
+  "military-press": {
       "name": "Katona vállnyomás",
       "description": "A katona vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg rúdsúlyzóval. A katona vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot állva végzik, vállszélességű terpeszben, a rúdsúlyzót vállmagasságban tartva, tenyérrel előre néző fogással, majd a rúdsúlyzót fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
     },
-    "rear-delt-fly": {
+  "rear-delt-fly": {
      "name": "Hátsó deltás tárogatás gépen",
      "description": "A hátsó deltás tárogatás gépen egy izolációs gyakorlat, amely a vállak hátsó részét célozza meg hátsó deltás tárogató géppel. A hátsó deltás tárogatás gépen mozdulatának elsődleges célpontja a deltaizom hátsó része. A gyakorlatot ülve végzik, mellkasukat a párnára szorítva, a fogantyúkat kinyújtott karokkal tartva, majd a fogantyúkat oldalra és hátra húzzák egy fordított tárogató mozdulatban."
     },
-    "seated-barbell-shoulder-press": {
+  "seated-barbell-shoulder-press": {
       "name": "Ülő rúdsúlyzós vállnyomás",
       "description": "Az ülő rúdsúlyzós vállnyomás egy összetett gyakorlat, amely a vállizmokat célozza meg rúdsúlyzóval, miközben egy vízszintes padon ülve végzik. Az ülő rúdsúlyzós vállnyomás mozdulatának elsődleges célpontja a deltaizom, különösen az elülső (első) deltaizom. A gyakorlatot úgy végzik, hogy egy vízszintes padon ülnek, a rúdsúlyzót vállmagasságban tartva, tenyérrel előre néző fogással, majd a rúdsúlyzót fej fölé nyomják, amíg a karok teljesen ki nem nyújtóznak."
     }
