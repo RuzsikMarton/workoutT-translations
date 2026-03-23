@@ -24,6 +24,10 @@
     "name": "Tlaky na lavičke",
     "description": "Tlaky na lavičke sú komplexné cvičenie, ktoré zacieľuje na hrudník, ramená a tricepsy. Celkovo tlaky na lavičke efektívne zacieľujú na viacero svalových skupín hornej časti tela a sú cenným doplnkom každej silovej tréningovej rutiny."
   },
+  "chest-press": {
+    "name": "Tlaky na hrudník na stroji",
+    "description": "Tlaky na hrudník na stroji sú komplexné cvičenie, ktoré zacieľuje na hrudník, ramená a tricepsy pomocou stroja na tlaky na hrudník. Cvičenie sa vykonáva sedením na stroji s nohami plochými na podlahe a držaním rukovätí v úrovni hrudníka, potom sa rukoväte tlačia dopredu, kým nie sú paže úplne vystreté."
+  },
   "dumbbell-bench-press": {
     "name": "Tlaky na lavičke s činkami",
     "description": "Tlaky na lavičke s činkami sú komplexné cvičenie, ktoré zacieľuje na hrudník pomocou činiek. Svaly hrudníka sú hlavnými svalmi, na ktoré cvičenie cieli, ale ako pridaný bonus tiež posilňuje predný deltový sval a tricepsy."
@@ -128,6 +132,14 @@
     "name": "Sťahovanie kladky na chrbát",
     "description": "Sťahovanie kladky na chrbát je cvičenie, ktoré zacieľuje na široké svaly chrbta."
   },
+  "lever-high-row": {
+    "name": "Veslovanie na pákovém stroji s vysokou kladkou",
+    "description": "Veslovanie na pákovém stroji s vysokou kladkou je cvičenie, ktoré zacieľuje na svaly hornej časti zad pomocou pákového stroje s vysokou kladkou. Cvičenie sa vykonáva sedením na stroji s nohama plochými na podlahe a držaním rukovätí s natiahnutými rukami, potom sa rukoväte priťahujú smerom k hrudníku pri držaní lakťov blízko tela."
+  },
+  "plate-loaded-seated-row": {
+    "name": "Veslovanie na pákovém stroji s kotouči",
+    "description": "Veslovanie na pákovém stroji s kotouči je cvičenie, ktoré zacieľuje na svaly zad a biceps pomocou pákového stroje s kotouči. Cvičenie sa vykonáva sedením na stroji s nohama plochými na podlahe a držaním rukovätí s natiahnutými rukami, potom sa rukoväte priťahujú smerom k hrudníku pri držaní lakťov blízko tela."
+  },
   "seated-cable-row": {
     "name": "Veslovanie na kladke v sede",
     "description": "Veslovanie na kladke v sede je cvičenie, ktoré zacieľuje na svaly hornej časti chrbta a bicepsy."
@@ -143,6 +155,26 @@
   "dumbbell-row": {
     "name": "Veslovanie s činkami",
     "description": "Veslovanie s činkami je cvičenie, ktoré cieli na svaly hornej časti chrbta a bicepsy pomocou činiek. Cvičenie sa vykonáva tak, že sa predkloníte v páse s jednou rukou opretou o lavičku a druhou rukou držíte činku, potom priťahujete činku smerom k trupu."
+  },
+  "bar-straight-arm-pulldown": {
+    "name": "Príťah s rovnými pažami na kladke (s rúčkou)",
+    "description": "Príťah s rovnými pažami na kladke (s rúčkou) je cvičenie, ktoré cieli na široké svaly chrbta pomocou kladkového stroja. Cvičenie sa vykonáva vstoje s nohama na šírku ramien a držaním rúčky nadhmatom, potom sa rúčka ťahá dole smerom k stehnám pri zachovaní rovnosti paží."
+  },
+  "rope-straight-arm-pulldown": {
+    "name": "Príťah s rovnými pažami na kladke (s lanom)",
+    "description": "Príťah s rovnými pažami na kladke (s lanom) je cvičenie, ktoré zacieľuje na široké svaly chrbta pomocou kladkového stroja s lanovým príslušenstvom. Cvičenie sa vykonáva vstoje s nohama na šírku ramien a držaním lana nadhmatom, potom sa lana ťahajú dole smerom k stehnám pri zachovaní rovnosti paží."
+  },
+  "one-arm-cable-row": {
+    "name": "Príťah na kladke jednou rukou v sede",
+    "description": "Príťah na kladke jednou rukou v sede je cvičenie zamerané na svaly hornej časti chrbta a biceps. Vykonáva sa na kladkovom stroji v sede, s chodidlami opretými a chrbtom vystretým. Jednou rukou držíte rukoväť a ťaháte ju smerom k trupu, pričom lakeť vediete blízko tela. Toto cvičenie umožňuje väčší rozsah pohybu a môže pomôcť korigovať svalové nerovnováhy medzi ľavou a pravou stranou chrbta."
+  },
+  "smith-machine-row": {
+    "name": "Veslovanie na Smithovom stroji",
+    "description": "Veslovanie na Smithovom stroji je cvičenie, ktoré zacieľuje na svaly hornej časti chrbta a bicepsy pomocou Smithovho stroja. Cvičenie sa vykonáva tak, že sa postavíte k Smithovmu stroju s nohami na šírku ramien a držíte hriadeľovú činku nadhmatom, potom priťahujete činku smerom k trupu pri zachovaní rovnosti paží."
+  },
+  "v-bar-pulldown": {
+    "name": "Príťah na kladke s V-tyčovou rúčkou",
+    "description": "Príťah na kladke s V-tyčovou rúčkou je cvičenie, ktoré zacieľuje na široké svaly chrbta a bicepsy pomocou kladkového stroja s V-tyčovou rúčkou. Cvičenie sa vykonáva vstoje s nohama na šírku ramien a držaním V-tyčovej rúčky nadhmatom, potom sa rúčka ťahá dole smerom k stehnám pri zachovaní rovnosti paží."
   },
   "pull-up": {
     "name": "Príťah na hrazde",
@@ -163,6 +195,10 @@
   "onearm-triceps-pushdown": {
     "name": "Jednoručné stláčanie na tricepsy",
     "description": "Jednoručné stláčanie na tricepsy je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Hlavným cieľom pohybu jednoručného stláčania na tricepsy je triceps brachii sval. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s nadhmatom (dlaňou smerujúcou nadol) a predlžovaním ruky nadol."
+  },
+  "cable-rope-overhead-extension": {
+    "name": "Tricepsové extenzie nad hlavou s lanom na kladke",
+    "description": "Tricepsové extenzie nad hlavou s lanom na kladke je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Hlavným cieľom pohybu tricepsových extenzií nad hlavou s lanom na kladke je triceps brachii sval. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s nadhmatom (dlaňou smerujúcou nadol) a predlžovaním ruky nahor. Tento pohyb sa zvyčajne vykonáva stojac, ale môže sa vykonávať aj v sede alebo v kľaku na úpravu úrovne obtiažnosti a zapojenia svalov." 
   },
   "seated-dumbbell-triceps-extension": {
     "name": "Sediace tricepsové predpažovanie s činkou",

@@ -24,7 +24,11 @@
     "name": "Fekvenyomás",
     "description": "A fekvenyomás egy összetett gyakorlat, amely a mellkast, a vállakat és a tricepszet célozza meg. Összességében a fekvenyomás hatékonyan célozza meg a felsőtest több izomcsoportját, és értékes kiegészítője bármilyen erőnléti edzésnek."
   },
-   "dumbbell-bench-press": {
+  "chest-press": {
+    "name": "Mellkas nyomógép",
+    "description": "A mellkas nyomógép egy összetett gyakorlat, amely a mellkast, a vállakat és a tricepszet célozza meg mellkas nyomógép használatával. A gyakorlatot úgy végzik, hogy a gépen ülve, a lábakat a talajon tartva, a fogantyúkat mellmagasságban fogva, majd a fogantyúkat előre nyomják, amíg a karok teljesen ki nem nyújtóznak."
+  },
+  "dumbbell-bench-press": {
     "name": "Kézi súlyzós fekvenyomás",
     "description": "A kézi súlyzós fekvenyomás egy összetett gyakorlat, amely a mellkast célozza meg kézi súlyzókkal. A mellizomzat a fő célzott izomcsoport, de bónuszként az elülső deltaizmot és a tricepszet is megdolgoztatja."
   },
@@ -128,6 +132,14 @@
     "name": "Húzódzkodás gépen",
     "description": "A húzódzkodás gépen egy gyakorlat, amely a hát széles izmait célozza meg."
   },
+  "plate-loaded-seated-row": {
+    "name": "Tárcsás ülő evezés",
+    "description": "A tárcsás ülő evezés egy gyakorlat, amely a hát izmait célozza meg tárcsás ülő evezőgéppel. A gyakorlatot úgy végzik, hogy a gépen ülve, a lábakat a talajon tartva, a fogantyúkat kinyújtott karokkal tartva, majd a fogantyúkat a mellkas felé húzzák, miközben a könyököket közel tartják a testhez."
+  },
+  "lever-high-row": {
+    "name": "Karos evezés magas fogással",
+    "description": "A karos evezés magas fogással egy gyakorlat, amely a felső hát izmait célozza meg karos géppel. A gyakorlatot úgy végzik, hogy a gépen ülve, a lábakat a talajon tartva, a fogantyúkat kinyújtott karokkal tartva, majd a fogantyúkat a mellkas felé húzzák, miközben a könyököket közel tartják a testhez."
+  },
   "seated-cable-row": {
     "name": "Ülő evezés kábelgépen",
     "description": "Az ülő evezés kábelgépen egy gyakorlat, amely a felső hát és a bicepsz izmait célozza meg."
@@ -143,6 +155,26 @@
   "dumbbell-row": {
     "name": "Kézi súlyzós evezés",
     "description": "A kézi súlyzós evezés egy gyakorlat, amely a felső hát és a bicepsz izmait célozza meg kézi súlyzókkal. A gyakorlatot úgy végzik, hogy a derékban előrehajolnak, egyik kezükkel egy padra támaszkodnak, míg a másik kezükben egy kézi súlyzót tartanak, majd a súlyzót a törzs felé húzzák."
+  },
+  "bar-straight-arm-pulldown": {
+    "name": "Rúdsúlyzós egyenes karos letolás",
+    "description": "A rúdsúlyzós egyenes karos letolás egy gyakorlat, amely a hát széles izmait célozza meg kábelgéppel. A gyakorlatot úgy végzik, hogy állva, vállszélességű terpeszben, a rúdsúlyzó fogantyúját nadhmatos fogással tartva, majd a rudat lefelé húzzák a combok felé, miközben a karokat egyenesen tartják."
+  },
+  "rope-straight-arm-pulldown": {
+    "name": "Kötél egyenes karos letolás",
+    "description": "A kötél egyenes karos letolás egy gyakorlat, amely a hát széles izmait célozza meg kábelgéppel kötél fogantyúval. A gyakorlatot úgy végzik, hogy állva, vállszélességű terpeszben, a kötél fogantyúját nadhmatos fogással tartva, majd a kötelet lefelé húzzák a combok felé, miközben a karokat egyenesen tartják."
+  },
+  "one-arm-cable-row": {
+    "name": "Egykaros evezés kábelgépen",
+    "description": "Az egykaros evezés kábelgépen egy gyakorlat, amely a hát izmait célozza meg egy karos evezőgéppel vagy kábelgéppel. A gyakorlatot úgy végzik, hogy ülve, a lábakat a talajon tartva, a törzset egyenesen tartva, a kábelgép fogantyúját egy kézzel tartva, majd a fogantyút a törzs felé húzzák, miközben a könyököt közel tartják a testhez."
+  },
+  "smith-machine-row": {
+    "name": "Smith gépes evezés",
+    "description": "A Smith gépes evezés egy gyakorlat, amely a hát izmait célozza meg Smith géppel. A gyakorlatot úgy végzik, hogy a Smith gép rúdsúlyzóját fogva, a testet előrehajolva, majd a rudat a törzs felé húzzák, miközben a könyököket közel tartják a testhez."
+  },
+  "v-bar-pulldown": {
+    "name": "V-rudas húzódzkodás gépen",
+    "description": "A V-rudas húzódzkodás gépen egy gyakorlat, amely a hát széles izmait célozza meg V-rudas fogantyúval egy kábelgépen. A gyakorlatot úgy végzik, hogy állva, vállszélességű terpeszben, a V-rudas fogantyút nadhmatos fogással tartva, majd a rudat lefelé húzzák a combok felé, miközben a karokat egyenesen tartják."
   },
   "pull-up": {
     "name": "Húzódzkodás",
@@ -163,6 +195,10 @@
   "onearm-triceps-pushdown": {
     "name": "Egykaros tricepsz letolás",
     "description": "Az egykaros tricepsz letolás egy gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. Az egykaros tricepsz letolás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép fogantyúját tenyérrel lefelé néző fogással tartva, és a kart lefelé nyújtják."
+  },
+  "cable-rope-overhead-extension": {
+    "name": "Kábelköteges fej fölötti tricepsz nyújtás",
+    "description": "A kábelköteges fej fölötti tricepsz nyújtás egy gyakorlat, amely a tricepsz izmait célozza meg kábelgépen. A kábelköteges fej fölötti tricepsz nyújtás mozdulatának elsődleges célpontja a tricepsz brachii izom. A gyakorlatot állva végzik, vállszélességű terpeszben, a kábelgép fogantyúját tenyérrel lefelé néző fogással tartva, és a karokat felfelé nyújtják. Ezt a gyakorlatot általában állva végzik, de ülve vagy térdelve is elvégezhető a nehézségi szint és az izomaktiváció módosításához."
   },
   "seated-dumbbell-triceps-extension": {
     "name": "Ülő kézi súlyzós tricepsz nyújtás",

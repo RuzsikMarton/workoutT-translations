@@ -24,6 +24,10 @@
     "name": "Bench Press",
     "description": "The bench press is a compound exercise that targets the chest, shoulders, and triceps. Overall, the bench press effectively targets multiple muscle groups in the upper body and is a valuable addition to any strength training routine."
   },
+  "chest-press": {
+    "name": "Chest Press Machine",
+    "description": "The chest press machine is a compound exercise that targets the chest, shoulders, and triceps using a chest press machine. The exercise is performed by sitting on the machine with feet flat on the floor and gripping the handles at chest height, then pressing the handles forward until the arms are fully extended."
+  },
   "dumbbell-bench-press": {
     "name": "Dumbbell Bench Press",
     "description": "The dumbbell bench press is a compound exercise that targets the chest using dumbbells. Your chest muscle are the main muscles targeted by the exercise, but as an added bonus it also works your anterior deltoid and triceps."
@@ -128,6 +132,14 @@
     "name": "Lat Pulldown",
     "description": "The lat pulldown is an exercise that targets the latissimus dorsi muscles in the back."
   },
+  "lever-high-row": {
+    "name": "Lever High Row",
+    "description": "The high lever row is an exercise that targets the upper back muscles using a high lever row machine. The exercise is performed by sitting on the machine with feet flat on the floor and gripping the handles with arms extended, then pulling the handles towards the chest while keeping the elbows close to the body."
+  },
+  "plate-loaded-seated-row": {
+    "name": "Plate-Loaded Seated Row",
+    "description": "The plate-loaded seated row is an exercise that targets the muscles of the back and biceps using a plate-loaded seated row machine. The exercise is performed by sitting on the machine with feet flat on the floor and gripping the handles with arms extended, then pulling the handles towards the chest while keeping the elbows close to the body."
+  },
   "seated-cable-row": {
     "name": "Seated Cable Row",
     "description": "The seated cable row is an exercise that targets the muscles of the upper back and biceps."
@@ -143,6 +155,26 @@
   "dumbbell-row": {
     "name": "Dumbbell Row",
     "description": "The dumbbell row is an exercise that targets the muscles of the upper back and biceps using dumbbells. The exercise is performed by bending at the waist with one hand supporting the body on a bench and the other hand holding a dumbbell, then rowing the dumbbell towards the torso."
+  },
+  "bar-straight-arm-pulldown": {
+    "name": "Bar Straight Arm Pulldown",
+    "description": "The bar straight arm pulldown is an exercise that targets the latissimus dorsi muscles in the back using a cable machine. The exercise is performed by standing with feet shoulder-width apart and holding the bar attachment with an overhand grip, then pulling the bar down towards the thighs while keeping the arms straight."
+  },
+  "rope-straight-arm-pulldown": {
+    "name": "Rope Straight Arm Pulldown",
+    "description": "The rope straight arm pulldown is an exercise that targets the latissimus dorsi muscles in the back using a cable machine with a rope attachment. The exercise is performed by standing with feet shoulder-width apart and holding the rope attachment with an overhand grip, then pulling the rope down towards the thighs while keeping the arms straight."
+  },
+  "one-arm-cable-row": {
+    "name": "One-Arm Cable Row",
+    "description": "The one-arm seated cable row is an exercise that targets the muscles of the upper back and biceps using a cable machine. It is performed while sitting with feet supported and the torso upright. You hold the handle with one hand and pull it toward your torso, keeping your elbow close to your body. This exercise allows for a greater range of motion and can help to correct muscle imbalances between the left and right sides of the back."
+  },
+  "smith-machine-row": {
+    "name": "Smith Machine Row",
+    "description": "The Smith machine row is an exercise that targets the muscles of the upper back and biceps using a Smith machine. The exercise is performed by standing with feet shoulder-width apart and gripping the bar of the Smith machine with an overhand grip, then pulling the bar towards the torso while keeping the elbows close to the body."
+  },
+  "v-bar-pulldown": {
+    "name": "V-Bar Pulldown",
+    "description": "The V-bar pulldown is an exercise that targets the latissimus dorsi muscles in the back using a cable machine with a V-bar attachment. The exercise is performed by standing with feet shoulder-width apart and holding the V-bar attachment with an overhand grip, then pulling the bar down towards the thighs while keeping the arms straight."
   },
   "pull-up": {
     "name": "Pull-Up",
@@ -163,6 +195,10 @@
   "onearm-triceps-pushdown": {
     "name": "One-Arm Triceps Pushdown",
     "description": "The one-arm triceps pushdown is an exercise that targets the triceps muscles using a cable machine. The primary target of the one-arm triceps pushdown movement is the triceps brachii muscle. The exercise is performed standing with feet shoulder-width apart and holding the cable machine handle with an overhand grip (palm facing downward) and extending the arm downward."
+  },
+  "cable-rope-overhead-extension": {
+    "name": "Cable Rope Overhead Triceps Extension",
+    "description": "The cable rope overhead triceps extension is an exercise that targets the triceps muscles using a cable machine. The primary target of the cable rope overhead triceps extension movement is the triceps brachii muscle. The exercise is performed standing with feet shoulder-width apart and holding the cable machine handle with an overhand grip (palm facing downward) and extending the arm upward. This exercise is commonly performed while standing, but it can also be done in a seated or kneeling position to modify the level of difficulty and target muscle engagement."
   },
   "seated-dumbbell-triceps-extension": {
     "name": "Seated Dumbbell Tricep Extension",

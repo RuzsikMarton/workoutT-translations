@@ -1,7 +1,48 @@
 {
   "metadata": {
     "title": "Workout Tracker",
-    "description": "A Workout Tracker az ultimát fitnesz társad. Naplózd edzéseidet, kövesd nyomon fejlődésed, és érd el fitnesz céljaid könnyedén."
+    "description": "A Workout Tracker az ultimát fitnesz társad. Naplózd edzéseidet, kövesd nyomon fejlődésed, és érd el fitnesz céljaid könnyedén.",
+    "workouts": "WT | Edzések",
+    "exercises": "WT | Gyakorlatok",
+    "contact": "WT | Kapcsolat",
+    "signin": "WT | Bejelentkezés",
+    "signup": "WT | Regisztráció"
+  },
+  "errors": {
+    "title": "Valami hiba történt",
+    "message": "Váratlan hiba történt. Kérjük, próbáld meg később újra.",
+    "codes": {
+      "INVALID_INPUT": "Érvénytelen adat. Kérjük, ellenőrizd az adataidat és próbáld meg újra.",
+      "SIGNUP_FAILED": "Sikertelen regisztráció. Kérjük, ellenőrizd az adataidat és próbáld meg újra.",
+      "SIGNUP_FAILED_GENERIC": "Sikertelen regisztráció. Kérjük, próbáld meg később újra.",
+      "SIGNIN_FAILED": "Sikertelen bejelentkezés. Kérjük, ellenőrizd a hitelesítő adataidat és próbáld meg újra.",
+      "SIGNIN_FAILED_GENERIC": "Sikertelen bejelentkezés. Kérjük, próbáld meg később újra.",
+      "NOT_AUTHENTICATED": "A művelet végrehajtásához be kell jelentkezned.",
+      "ACCESS_DENIED": "Nincs jogosultságod a művelet végrehajtásához.",
+      "WORKOUT_NOT_FOUND": "A kért edzés nem található.",
+      "FAILED_TO_CREATE_WORKOUT": "Sikertelen edzés létrehozása. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_DELETE_WORKOUT": "Sikertelen edzés törlése. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_UPDATE_WORKOUT_TITLE": "Sikertelen edzés címének frissítése. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_COMPLETE_WORKOUT": "Sikertelen edzés befejezése. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_ADD_EXERCISES_TO_WORKOUT": "Sikertelen gyakorlatok hozzáadása az edzéshez. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_REMOVE_EXERCISE_FROM_WORKOUT": "Sikertelen gyakorlat eltávolítása az edzésből. Kérjük, próbáld meg később újra.",
+      "EXERCISE_NOT_FOUND": "A kért gyakorlat nem található.",
+      "FAILED_TO_CREATE_EXERCISE": "Sikertelen gyakorlat létrehozása. Kérjük, próbáld meg később újra.",
+      "SET_NOT_FOUND": "A kért sorozat nem található.",
+      "FAILED_TO_CREATE_EXERCISE_SET": "Sikertelen gyakorlat sorozat létrehozása. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_UPDATE_EXERCISE_SET": "Sikertelen gyakorlat sorozat frissítése. Kérjük, próbáld meg később újra.",
+      "FAILED_TO_DELETE_EXERCISE_SET": "Sikertelen gyakorlat sorozat törlése. Kérjük, próbáld meg később újra."
+    },
+    "zod-errors": {
+      "INVALID_INPUT": "Érvénytelen adat. Kérjük, ellenőrizd az adataidat és próbáld meg újra.",
+      "INVALID_EMAIL_ADDRESS": "Érvénytelen email cím.",
+      "MUST_BE_AT_LEAST_3_CHARACTERS": "Legalább 3 karakternek kell lennie.",
+      "MUST_BE_LESS_THAN_50_CHARACTERS": "Kevesebb, mint 50 karakternek kell lennie.",
+      "MUST_BE_AT_LEAST_8_CHARACTERS": "A jelszónak legalább 8 karakter hosszúnak kell lennie.",
+      "PASSWORD_MUST_CONTAIN_UPPERCASE_LOWERCASE_NUMBER": "A jelszónak legalább egy nagybetűt, egy kisbetűt és egy számot kell tartalmaznia.",
+      "PLEASE_CONFIRM_YOUR_PASSWORD": "Kérjük, erősítsd meg a jelszavad.",
+      "PASSWORDS_DONT_MATCH": "A jelszavak nem egyeznek."
+    }
   },
   "Nav": {
     "home": "Kezdőlap",
@@ -9,7 +50,11 @@
     "exercises": "Gyakorlatok",
     "contact": "Kapcsolat",
     "signin": "Bejelentkezés",
-    "signout": "Kijelentkezés"
+    "signout": "Kijelentkezés",
+    "myaccount": "Saját fiók",
+    "profile": "Profil",
+    "signoutSuccess": "Sikeresen kijelentkeztél.",
+    "signoutError": "Hiba történt a kijelentkezés során. Kérjük, próbáld meg újra."
   },
   "Footer": {
     "language": {
@@ -21,6 +66,7 @@
   },
   "SignIn": {
     "title": "Bejelentkezés",
+    "subtitle": "A gyakorlatokhoz és edzéseidhez való hozzáféréshez be kell jelentkezned.",
     "emailLabel": "Email cím",
     "passwordLabel": "Jelszó",
     "submitButton": "Bejelentkezés",
@@ -69,9 +115,10 @@
     "feature3Title": "Fejlődéskövetés",
     "feature3Desc": "Kövesd nyomon fejlődésedet személyes rekordok és teljesítményelemzések segítségével."
   },
-    "ExercisesPage": {
+  "ExercisesPage": {
     "title": "Gyakorlatok",
-    "imgAlt": "Gyakorlatok illusztráció IMG"
+    "imgAlt": "Gyakorlatok illusztráció IMG",
+    "loading": "Gyakorlatok betöltése..."
   },  
   "FilterBar": {
     "showall": "Összes mutatása",
@@ -88,8 +135,10 @@
   "ExerciseCard": {
     "details": "Részletek",
     "add": "Hozzáadás",
+    "adding": "Hozzáadás...",
     "muscle": "Izomcsoport:",
-    "equipment": "Felszerelés:"
+    "equipment": "Felszerelés:",
+    "toastAdded": "Gyakorlat hozzáadva az edzéshez"
   },
   "ExercisePage": {
     "loading": "Gyakorlat betöltése...",
@@ -98,6 +147,153 @@
     "equipmentLabel": "Felszerelés:",
     "descriptionLabel": "Leírás",
     "imgAlt": "Gyakorlat bemutató GIF",
-    "button": "Hozzáadás az edzéshez"
+    "button": "Hozzáadás az edzéshez",
+    "buttonAdding": "Hozzáadás...",
+    "toastAdded": "Gyakorlat hozzáadva az edzéshez",
+    "userStats": {
+      "signInTitle": "Jelentkezz be a statisztikáid megtekintéséhez",
+      "signInPrompt": "Jelentkezz be, hogy lásd a személyes rekordjaidat és az edzéselőzményeidet ehhez a gyakorlathoz.",
+      "noStatsTitle": "Még nincs rögzített statisztika",
+      "noStatsMessage": "Még nem rögzítettél egyetlen edzést sem ezzel a gyakorlattal. Kezdd el követni az edzéseidet, hogy itt megjelenjenek a statisztikáid.",
+      "yourStatsTitle": "A te gyakorlati statisztikáid",
+      "yourStatsDescription": "Íme egy összefoglaló a teljesítményedről ezzel a gyakorlattal az edzéselőzményeid alapján.",
+      "heaviestSetLabel": "Legnehezebb sorozat",
+      "bestVolumeLabel": "Legjobb összmunka",
+      "best1ERMLabel": "Legjobb 1RM",
+      "lastPerformedLabel": "Legutóbb végrehajtva"
+    }
+  },
+  "PersonalBestCard": {
+    "title": "Személyes rekord",
+    "noData": "Még nincs személyes rekord ehhez a gyakorlathoz.",
+    "dateLabel": "Dátum:",
+    "setLabel": "Sorozat",
+    "repsLabel": "Ismétlések",
+    "weightLabel": "Súly",
+    "volumeLabel": "Összmunka"
+  },
+  "LastExerciseCard": {
+    "title": "Legutóbbi edzés",
+    "noData": "Még nincs rögzített edzés ehhez a gyakorlathoz.",
+    "dateLabel": "Dátum:",
+    "setLabel": "Sorozat",
+    "repsLabel": "Ismétlések",
+    "weightLabel": "Súly",
+    "volumeLabel": "Összmunka"
+  },
+  "workoutsTitle": {
+    "title": "Edzések"
+  },
+  "ActiveWorkoutCard": {
+    "noActiveWorkoutTitle": "Nincs aktív edzés",
+    "noActiveWorkout": "Indíts el egy új edzést, hogy itt megjelenjen.",
+    "startButton": "Üres edzés indítása",
+    "creating": "Létrehozás...",
+    "continueButton": "Edzés folytatása",
+    "title": "Aktív edzés",
+    "NameLabel": "Név:",
+    "DateLabel": "Eltelt idő:",
+    "ExercisesLabel": "Gyakorlatok:"
+  },
+  "WorkoutHistory": {
+    "title": "Edzés előzmények",
+    "noWorkoutsTitle": "Nincs edzés előzmény",
+    "noWorkoutsMessage": "Még nem rögzítettél egyetlen edzést sem. Kezdd el követni edzéseidet, hogy itt megjelenjenek.",
+    "nameLabel": "Név",
+    "dateLabel": "Dátum",
+    "durationLabel": "Időtartam",
+    "detailsLabel": "Műveletek",
+    "detailsButton": "Részletek"
+  },
+  "workoutSheet": {
+    "title":"Gyakorlatok hozzáadása",
+    "subtitle":"Válaszd ki a gyakorlatokat a listából, hogy hozzáadd őket az edzésedhez.",
+    "addButton":"Kiválasztott gyakorlatok hozzáadása",
+    "adding":"Gyakorlatok hozzáadása..."
+   },
+   "workoutSheetFilter": {
+     "muscle": "Célizom",
+     "musclePlaceholder": "Szűrés izomcsoport szerint",
+     "equipment": "Felszerelés",
+     "equipmentPlaceholder": "Szűrés felszerelés szerint",
+     "reset": "Szűrők visszaállítása"
+   },
+   "workoutLoading": {
+     "title": "Edzés betöltése...",
+     "error": "Hiba történt az edzés betöltésekor. Kérjük, próbáld meg újra."
+   },
+   "workoutLog": {
+     "title": "Edzésnapló",
+     "durationLabel": "Időtartam",
+     "volumeLabel": "Összmunka",
+     "exercisesLabel": "Gyakorlatok",
+     "backButton": "Vissza",
+     "completeButton": "Edzés befejezése",
+     "completing": "Edzés befejezése...",
+     "workoutNamePlaceholder": "Edzés neve",
+     "addExerciseButton": "Gyakorlat hozzáadása"
+   },
+  "selectedExerciseCard": {
+    "setsLabel": "Sorozat",
+    "repsLabel": "Ismétlések",
+    "removeButton": "Gyakorlat eltávolítása",
+    "removing": "Eltávolítás...",
+    "addSetButton": "Sorozat hozzáadása",
+    "addingSet": "Sorozat hozzáadása...",
+    "noSets": "Még nincs sorozat hozzáadva."
+  },
+  "workoutDetails":{
+    "durationLabel": "Időtartam",
+    "volumeLabel": "Összmunka (kg)",
+    "setsLabel": "Sorozatok",
+    "editButton": "Edzés szerkesztése",
+    "editing": "Edzés szerkesztése...",
+    "deleteButton": "Edzés törlése",
+    "deleting": "Törlés..."
+  },
+  "workoutDetailsCard": {
+    "set": "Sorozat",
+    "reps": "Ismétlések",
+    "weight": "Súly (kg)"
+  },
+   "workoutEditHeader": {
+    "backButton": "Vissza",
+    "nameLabel": "Edzés neve",
+    "deleteButton": "Edzés törlése",
+    "deleting": "Edzés törlése..."
+  },
+  "profile": {
+    "userCard": {
+      "title": "Felhasználói adatok",
+      "nameLabel": "Név",
+      "emailLabel": "Email cím",
+      "joinedLabel": "Csatlakozás dátuma",
+      "totalWorkoutsLabel": "Összes edzés",
+      "editButton": "Szerkesztés",
+      "editing": "Szerkesztés..."
+    },
+    "workoutChart": {
+      "title": "Edzés aktivitás",
+      "week1": "1. hét",
+      "week2": "2. hét",
+      "week3": "3. hét",
+      "week4": "4. hét",
+      "countLabel": "Edzések"
+    },
+     "last28Days": {
+      "title": "Az elmúlt 28 nap",
+      "noData": "Az elmúlt 28 napban nem rögzítettél edzést.",
+      "workoutLabel": "Edzések",
+      "volumeLabel": "Összmunka",
+      "durationLabel": "Időtartam",
+      "exercisesLabel": "Gyakorlatok"
+    },
+     "workoutTrendsChart": {
+      "title": "Edzés trendek",
+      "noData": "Nincs elérhető adat",
+      "description": "Ebben a diagramon még nincs megjeleníthető adat.<br></br>Az adatok itt fognak megjelenni, amint elérhetővé válnak.",
+      "volume": "Összmunka (kg)",
+      "duration": "Időtartam (perc)"
+    }
   }
 }

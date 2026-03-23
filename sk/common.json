@@ -1,7 +1,48 @@
 {
   "metadata": {
     "title": "Workout Tracker",
-    "description": "Workout Tracker je váš ultimátny fitnes spoločník. Zaznamenávajte si svoje tréningy, sledujte svoj pokrok a dosahujte svoje fitnes ciele ľahko."
+    "description": "Workout Tracker je váš ultimátny fitnes spoločník. Zaznamenávajte si svoje tréningy, sledujte svoj pokrok a dosahujte svoje fitnes ciele ľahko.",
+    "workouts": "WT | Tréningy",
+    "exercises": "WT | Cviky",
+    "contact": "WT | Kontakt",
+    "signin": "WT | Prihlásiť sa",
+    "signup": "WT | Registrovať sa"
+  },
+  "errors": {
+    "title": "Niečo sa pokazilo",
+    "message": "Došlo k neočakávanej chybe. Skúste to prosím neskôr znova.",
+    "codes": {
+      "INVALID_INPUT": "Neplatný vstup. Skontrolujte svoje údaje a skúste to znova.",
+      "SIGNUP_FAILED": "Registrácia sa nezdařila. Skontrolujte svoje údaje a skúste to znova.",
+      "SIGNUP_FAILED_GENERIC": "Registrácia sa nezdařila. Skúste to prosím neskôr znova.",
+      "SIGNIN_FAILED": "PPrihlásenie sa nezdařilo. Skontrolujte svoje údaje a skúste to znova.",
+      "SIGNIN_FAILED_GENERIC": "PPrihlásenie sa nezdařilo. Skúste to prosím neskôr znova.",
+      "NOT_AUTHENTICATED": "Musíte byť prihlásení, aby ste mohli vykonať túto akciu.",
+      "ACCESS_DENIED": "Nemáte oprávnenie vykonať túto akciu.",
+      "WORKOUT_NOT_FOUND": "Požadovaný tréning nebol nájdený.",
+      "FAILED_TO_CREATE_WORKOUT": "Nepodarilo sa vytvoriť tréning. Skúste to prosím neskôr znova.",
+      "FAILED_TO_DELETE_WORKOUT": "Nepodarilo sa vymazať tréning. Skúste to prosím neskôr znova.",
+      "FAILED_TO_UPDATE_WORKOUT_TITLE": "Nepodarilo sa aktualizovať názov tréningu. Skúste to prosím neskôr znova.",
+      "FAILED_TO_COMPLETE_WORKOUT": "Nepodarilo sa dokončiť tréning. Skúste to prosím neskôr znova.",
+      "FAILED_TO_ADD_EXERCISES_TO_WORKOUT": "Nepodarilo sa pridať cviky do tréningu. Skúste to prosím neskôr znova.",
+      "FAILED_TO_REMOVE_EXERCISE_FROM_WORKOUT": "Nepodarilo sa odstrániť cvik z tréningu. Skúste to prosím neskôr znova.",
+      "EXERCISE_NOT_FOUND": "Požadovaný cvik nebol nájdený.",
+      "FAILED_TO_CREATE_EXERCISE": "Nepodarilo sa vytvoriť cvik. Skúste to prosím neskôr znova.",
+      "SET_NOT_FOUND": "Požadovaná séria cviku nebola nájdená.",
+      "FAILED_TO_CREATE_EXERCISE_SET": "Nepodarilo sa vytvoriť sériu cviku. Skúste to prosím neskôr znova.",
+      "FAILED_TO_UPDATE_EXERCISE_SET": "Nepodarilo sa aktualizovať sériu cviku. Skúste to prosím neskôr znova.",
+      "FAILED_TO_DELETE_EXERCISE_SET": "Nepodarilo sa vymazať sériu cviku. Skúste to prosím neskôr znova."
+    },
+    "zod-errors": {
+      "INVALID_INPUT": "Neplatný vstup. Skontrolujte svoje údaje a skúste to znova.",
+      "INVALID_EMAIL_ADDRESS": "Neplatná emailová adresa.",
+      "MUST_BE_AT_LEAST_3_CHARACTERS": "Musí byť aspoň 3 znaky.",
+      "MUST_BE_LESS_THAN_50_CHARACTERS": "Musí byť menej ako 50 znakov.",
+      "MUST_BE_AT_LEAST_8_CHARACTERS": "Heslo musí byť aspoň 8 znakov dlhé.",
+      "PASSWORD_MUST_CONTAIN_UPPERCASE_LOWERCASE_NUMBER": "Heslo musí obsahovať aspoň jedno veľké písmeno, jedno malé písmeno a jedno číslo.",
+      "PLEASE_CONFIRM_YOUR_PASSWORD": "Prosím potvrďte svoje heslo.",
+      "PASSWORDS_DONT_MATCH": "Heslá sa nezhodujú."
+    }
   },
   "Nav": {
     "home": "Domov",
@@ -9,7 +50,11 @@
     "exercises": "Cviky",
     "contact": "Kontakt",
     "signin": "Prihlásiť sa",
-    "signout": "Odhlásiť sa"
+    "signout": "Odhlásiť sa",
+    "myaccount": "Môj účet",
+    "profile": "Profil",
+     "signoutSuccess": "Úspešne ste sa odhlásili.",
+    "signoutError": "Pri odhlasovaní sa vyskytla chyba. Skúste to prosím znova."
   },
   "Footer": {
     "language": {
@@ -21,6 +66,7 @@
   },
   "SignIn": {
     "title": "Prihlásenie",
+    "subtitle": "Pre prístup k cvičeniam a vašim tréningom sa musíte prihlásiť.",
     "emailLabel": "Emailová adresa",
     "passwordLabel": "Heslo",
     "submitButton": "Prihlásiť sa",
@@ -69,9 +115,10 @@
     "feature3Title": "Analytika výkonu",
     "feature3Desc": "Získajte prehľady o svojom výkone a identifikujte oblasti na zlepšenie."
   },
-    "ExercisesPage": {
+  "ExercisesPage": {
     "title": "Cviky",
-    "imgAlt": "Ukážka cvičenia IMG"
+    "imgAlt": "Ukážka cvičenia IMG",
+    "loading": "Načítavajú sa cviky..."
   },  
   "FilterBar": {
     "showall": "Zobraziť všetko",
@@ -88,8 +135,10 @@
   "ExerciseCard": {
     "details": "Detaily",
     "add": "Pridať",
+    "adding": "Pridávanie...",
     "muscle": "Cieľová svalová skupina:",
-    "equipment": "Vybavenie:"
+    "equipment": "Vybavenie:",
+    "toastAdded": "Cvik bol pridaný do tréningu"
   },
   "ExercisePage": {
     "loading": "Načítava sa cvik...",
@@ -98,6 +147,153 @@
     "equipmentLabel": "Vybavenie:",
     "descriptionLabel": "Prehľad",
     "imgAlt": "Ukážka cvičenia IMG",
-    "button": "Pridať do tréningu"
+    "button": "Pridať do tréningu",
+    "buttonAdding": "Pridávanie...",
+    "toastAdded": "Cvik bol pridaný do tréningu",
+    "userStats": {
+      "signInTitle": "Prihláste sa, aby ste videli svoje štatistiky",
+      "signInPrompt": "Prihláste sa, aby ste videli svoje osobné rekordy a históriu tréningov pre tento cvik.",
+      "noStatsTitle": "Ešte neboli zaznamenané žiadne štatistiky",
+      "noStatsMessage": "Ešte ste nezaznamenali žiadne tréningy s týmto cvikom. Začnite sledovať svoje tréningy, aby sa tu zobrazili vaše štatistiky.",
+      "yourStatsTitle": "Vaše štatistiky cviku",
+      "yourStatsDescription": "Tu je súhrn vášho výkonu s týmto cvikom na základe vašej histórie tréningov.",
+      "heaviestSetLabel": "Najťažšia séria",
+      "bestVolumeLabel": "Najlepší objem",
+      "best1ERMLabel": "Najlepší 1RM",
+      "lastPerformedLabel": "Naposledy vykonané"
+    }
+  },
+  "PersonalBestCard": {
+    "title": "Osobné rekordy",
+    "noData": "Zatiaľ neboli zaznamenané žiadne osobné rekordy.",
+    "dateLabel": "Dátum",
+    "setLabel": "Séria",
+    "repsLabel": "Opakovania",
+    "weightLabel": "Váha (kg)",
+    "volumeLabel": "Objem (kg)"
+  },
+  "LastExerciseCard": {
+    "title": "Posledný tréning",
+    "noData": "Zatiaľ neboli zaznamenané žiadne tréningy.",
+    "dateLabel": "Dátum",
+    "setLabel": "Séria",
+    "repsLabel": "Opakovania",
+    "weightLabel": "Váha (kg)",
+    "volumeLabel": "Objem (kg)"
+  },
+  "workoutsTitle": {
+    "title": "Tréningy"
+  },
+  "ActiveWorkoutCard": {
+    "noActiveWorkoutTitle": "Žiadny aktívny tréning",
+    "noActiveWorkout": "Začnite nový tréning, aby sa tu zobrazil.",
+    "startButton": "Spustiť prázdny tréning",
+    "creating": "Vytváranie...",
+    "continueButton": "Pokračovať v tréningu",
+    "title": "Aktívny tréning",
+    "NameLabel": "Názov:",
+    "DateLabel": "Uplynulý čas:",
+    "ExercisesLabel": "Cviky:"
+  },
+  "WorkoutHistory": {
+    "title": "História tréningov",
+    "noWorkoutsTitle": "Žiadne tréningy",
+    "noWorkoutsMessage": "Ešte ste nezaznamenali žiadne tréningy. Začnite sledovať svoje tréningy, aby sa tu zobrazili.",
+    "nameLabel": "Názov",
+    "dateLabel": "Dátum",
+    "durationLabel": "Trvanie",
+    "detailsLabel": "Akcie",
+    "detailsButton": "Zobraziť detaily"
+  },
+  "workoutSheet": {
+    "title":"Pridať cviky",
+    "subtitle":"Pridajte cviky do svojho tréningu výberom z nižšie uvedeného zoznamu.",
+    "addButton":"Pridať vybrané cviky",
+    "adding":"Pridávanie cvikov..."
+  },
+  "workoutSheetFilter": {
+    "muscle": "Svalová skupina",
+    "musclePlaceholder": "Vyberte svalovú skupinu",
+    "equipment": "Vybavenie",
+    "equipmentPlaceholder": "Vyberte vybavenie",
+    "reset": "Obnoviť filtre"
+  },
+  "workoutLoading": {
+    "title": "Načítává sa tréning...",
+    "error": "Nastala chyba pri načítavaní tréningu. Skúste to prosím znova."
+   },
+   "workoutLog": {
+     "title": "Tréningový denník",
+     "durationLabel": "Trvanie",
+     "volumeLabel": "Objem",
+     "exercisesLabel": "Cviky",
+     "backButton": "Späť",
+     "completeButton": "Dokončiť tréning",
+     "completing": "Dokončovanie tréningu...",
+     "workoutNamePlaceholder": "Názov tréningu",
+     "addExerciseButton": "Pridať cvik"
+   },
+  "selectedExerciseCard": {
+    "setsLabel": "Séria",
+    "repsLabel": "Opakovania",
+    "removeButton": "Odstrániť cvik",
+    "removing": "Odstraňovanie...",
+    "addSetButton": "Pridať sériu",
+    "addingSet": "Pridávanie série...",
+    "noSets": "Zatiaľ neboli pridané žiadne série."
+  },
+  "workoutDetails": {
+    "durationLabel": "Trvanie",
+    "volumeLabel": "Objem",
+    "setsLabel": "Série",
+    "editButton": "Upraviť",
+    "editing": "Úprava...",
+    "deleteButton": "Odstrániť",
+    "deleting": "Odstraňovanie..."
+  },
+  "workoutDetailsCard": {
+    "set": "Série",
+    "reps": "Opakovania",
+    "weight": "Váha (kg)"
+  },
+   "workoutEditHeader": {
+    "backButton": "Späť",
+    "nameLabel": "Název tréningu",
+    "deleteButton": "Odstrániť tréning",
+    "deleting": "Odstraňovanie tréningu..."
+  },
+  "profile": {
+    "userCard": {
+      "title": "Užívateľské informácie",
+      "nameLabel": "Názov",
+      "emailLabel": "Emailová adresa",
+      "joinedLabel": "Dátum pripojenia",
+      "totalWorkoutsLabel": "Celkový počet tréningov",
+      "editButton": "Upraviť",
+      "editing": "Úprava..."
+    },
+    "workoutChart": {
+      "title": "Aktivita tréningu",
+      "week1": "1. týždeň",
+      "week2": "2. týždeň",
+      "week3": "3. týždeň",
+      "week4": "4. týždeň",
+      "countLabel": "Tréningy"
+    },
+     "last28Days": {
+      "title": "Posledných 28 dní",
+      "noData": "V posledných 28 dňoch neboli zaznamenané žiadne tréningy.",
+      "workoutLabel": "Tréningy",
+      "volumeLabel": "Objem",
+      "durationLabel": "Trvanie",
+      "exercisesLabel": "Cviky"
+    },
+     "workoutTrendsChart": {
+      "title": "Trendy v tréningu",
+      "noData": "Žiadne dostupné údaje",
+      "description": "V tomto grafe ešte nie sú žiadne údaje na zobrazenie.<br></br>Údaje sa tu zobrazia, keď budú k dispozícii.",
+      "volume": "Objem (kg)",
+      "duration": "Trvanie (min)"
+    }
   }
 }
