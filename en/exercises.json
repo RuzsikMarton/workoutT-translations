@@ -223,29 +223,33 @@
   "cable-lateral-raise": {
     "name": "Cable Lateral Raise",
     "description": "The cable lateral raise is an exercise that targets the shoulder muscles, specifically the lateral deltoids, using a cable machine. The cable lateral raise involves raising your arm out to the side using a low cable pulley and handle attachment. This exercise provides constant tension on the shoulder muscles throughout the movement, making it an effective way to build strength and definition in the shoulders."
-   },
-   "front-raise": {
-     "name": "Front Raise",
-     "description": "The front raise is an isolation exercise that targets the shoulder muscles, specifically the anterior deltoids. The front raise is performed by holding a weight (such as a dumbbell or barbell) in front of the body with an overhand grip and lifting it straight up to shoulder height while keeping the arms extended."
-   },
-   "dumbbell-shoulder-press": {
-     "name": "Dumbbell Shoulder Press",
-     "description": "The dumbbell shoulder press is a compound exercise that targets the shoulder muscles using dumbbells. The primary target of the dumbbell shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting or standing with feet shoulder-width apart and holding the dumbbells at shoulder height with palms facing forward, then pressing the dumbbells overhead until the arms are fully extended."
-   },
-   "lever-shoulder-press": {
-     "name": "Lever Shoulder Press",
-     "description": "The lever shoulder press is a compound exercise that targets the shoulder muscles using a lever machine. The primary target of the lever shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting on the machine with feet flat on the floor and gripping the handles at shoulder height, then pressing the handles overhead until the arms are fully extended."
-   },
-   "military-press": {
-     "name": "Military Press",
-     "description": "The military press is a compound exercise that targets the shoulder muscles using a barbell. The primary target of the military press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by standing with feet shoulder-width apart and holding the barbell at shoulder height with an overhand grip, then pressing the barbell overhead until the arms are fully extended."
-   },
-   "rear-delt-fly": {
-     "name": "Rear Delt Fly Machine",
-     "description": "The rear delt fly machine is an isolation exercise that targets the rear deltoid muscles using a rear delt fly machine. The primary target of the rear delt fly machine movement is the posterior deltoid muscle. The exercise is performed by sitting on the machine with chest against the pad and gripping the handles with arms extended, then pulling the handles outward and backward in a reverse fly motion."
-   },
-   "seated-barbell-shoulder-press": {
-     "name": "Seated Barbell Shoulder Press",
-     "description": "The seated barbell shoulder press is a compound exercise that targets the shoulder muscles using a barbell while sitting on a bench. The primary target of the seated barbell shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting on a bench with feet flat on the floor and holding the barbell at shoulder height with an overhand grip, then pressing the barbell overhead until the arms are fully extended."
-   }
+  },
+  "front-raise": {
+    "name": "Front Raise",
+    "description": "The front raise is an isolation exercise that targets the shoulder muscles, specifically the anterior deltoids. The front raise is performed by holding a weight (such as a dumbbell or barbell) in front of the body with an overhand grip and lifting it straight up to shoulder height while keeping the arms extended."
+  },
+  "dumbbell-shoulder-press": {
+    "name": "Dumbbell Shoulder Press",
+    "description": "The dumbbell shoulder press is a compound exercise that targets the shoulder muscles using dumbbells. The primary target of the dumbbell shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting or standing with feet shoulder-width apart and holding the dumbbells at shoulder height with palms facing forward, then pressing the dumbbells overhead until the arms are fully extended."
+  },
+  "lateral-raise-machine": {
+    "name": "Lateral Raise Machine",
+    "description": "The lateral raise machine is an isolation exercise that targets the shoulder muscles, specifically the lateral deltoids. The exercise is performed by sitting on the machine with chest against the pad and gripping the handles with arms extended, then lifting the handles outward to the sides until it reaches shoulder height while keeping the arms extended."
+  },
+  "lever-shoulder-press": {
+    "name": "Lever Shoulder Press",
+    "description": "The lever shoulder press is a compound exercise that targets the shoulder muscles using a lever machine. The primary target of the lever shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting on the machine with feet flat on the floor and gripping the handles at shoulder height, then pressing the handles overhead until the arms are fully extended."
+  },
+  "military-press": {
+    "name": "Military Press",
+    "description": "The military press is a compound exercise that targets the shoulder muscles using a barbell. The primary target of the military press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by standing with feet shoulder-width apart and holding the barbell at shoulder height with an overhand grip, then pressing the barbell overhead until the arms are fully extended."
+  },
+  "rear-delt-fly": {
+    "name": "Rear Delt Fly Machine",
+    "description": "The rear delt fly machine is an isolation exercise that targets the rear deltoid muscles using a rear delt fly machine. The primary target of the rear delt fly machine movement is the posterior deltoid muscle. The exercise is performed by sitting on the machine with chest against the pad and gripping the handles with arms extended, then pulling the handles outward and backward in a reverse fly motion."
+  },
+  "seated-barbell-shoulder-press": {
+    "name": "Seated Barbell Shoulder Press",
+    "description": "The seated barbell shoulder press is a compound exercise that targets the shoulder muscles using a barbell while sitting on a bench. The primary target of the seated barbell shoulder press movement is the deltoid muscles, with a focus on the anterior (front) deltoids. The exercise is performed by sitting on a bench with feet flat on the floor and holding the barbell at shoulder height with an overhand grip, then pressing the barbell overhead until the arms are fully extended."
+  }
 }

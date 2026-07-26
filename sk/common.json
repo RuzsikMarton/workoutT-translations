@@ -53,7 +53,7 @@
     "signout": "Odhlásiť sa",
     "myaccount": "Môj účet",
     "profile": "Profil",
-     "signoutSuccess": "Úspešne ste sa odhlásili.",
+    "signoutSuccess": "Úspešne ste sa odhlásili.",
     "signoutError": "Pri odhlasovaní sa vyskytla chyba. Skúste to prosím znova."
   },
   "Footer": {
@@ -119,7 +119,7 @@
     "title": "Cviky",
     "imgAlt": "Ukážka cvičenia IMG",
     "loading": "Načítavajú sa cviky..."
-  },  
+  },
   "FilterBar": {
     "showall": "Zobraziť všetko",
     "muscle": "Cieľová svalová skupina:",
@@ -160,7 +160,17 @@
       "heaviestSetLabel": "Najťažšia séria",
       "bestVolumeLabel": "Najlepší objem",
       "best1ERMLabel": "Najlepší 1RM",
-      "lastPerformedLabel": "Naposledy vykonané"
+      "lastPerformedLabel": "Naposledy vykonané",
+      "bestLabel": "Najlepší",
+      "lastLabel": "Najnovší",
+      "statTable": {
+        "date": "sk-SK",
+        "sets": "Série",
+        "reps": "Opakovania",
+        "weight": "Váha",
+        "volume": "Objem",
+        "noData": "Žiadne údaje o tréningu pre tento cvik."
+      }
     }
   },
   "PersonalBestCard": {
@@ -206,10 +216,10 @@
     "detailsButton": "Zobraziť detaily"
   },
   "workoutSheet": {
-    "title":"Pridať cviky",
-    "subtitle":"Pridajte cviky do svojho tréningu výberom z nižšie uvedeného zoznamu.",
-    "addButton":"Pridať vybrané cviky",
-    "adding":"Pridávanie cvikov..."
+    "title": "Pridať cviky",
+    "subtitle": "Pridajte cviky do svojho tréningu výberom z nižšie uvedeného zoznamu.",
+    "addButton": "Pridať vybrané cviky",
+    "adding": "Pridávanie cvikov..."
   },
   "workoutSheetFilter": {
     "muscle": "Svalová skupina",
@@ -221,18 +231,25 @@
   "workoutLoading": {
     "title": "Načítává sa tréning...",
     "error": "Nastala chyba pri načítavaní tréningu. Skúste to prosím znova."
-   },
-   "workoutLog": {
-     "title": "Tréningový denník",
-     "durationLabel": "Trvanie",
-     "volumeLabel": "Objem",
-     "exercisesLabel": "Cviky",
-     "backButton": "Späť",
-     "completeButton": "Dokončiť tréning",
-     "completing": "Dokončovanie tréningu...",
-     "workoutNamePlaceholder": "Názov tréningu",
-     "addExerciseButton": "Pridať cvik"
-   },
+  },
+  "workoutLog": {
+    "title": "Tréningový denník",
+    "durationLabel": "Trvanie",
+    "volumeLabel": "Objem",
+    "exercisesLabel": "Cviky",
+    "backButton": "Späť",
+    "completeButton": "Dokončiť tréning",
+    "completing": "Dokončovanie tréningu...",
+    "confirmCompleteTitle": "Dokončiť tréning?",
+    "confirmCompleteDescription": "Ste si istí, že chcete dokončiť tento tréning? Túto akciu nie je možné vrátiť späť. Stále budete môcť zobraziť a upraviť tento tréning vo svojej histórii.",
+    "cancelButton": "Zrušiť",
+    "workoutNamePlaceholder": "Názov tréningu",
+    "addExerciseButton": "Pridať cvik",
+    "cancelWorkoutButton": "Zrušiť tréning",
+    "cancelingWorkout": "Zrušovanie tréningu...",
+    "confirmCancelTitle": "Zrušiť tréning?",
+    "confirmCancelDescription": "Ste si istí, že chcete zrušiť tento tréning? Túto akciu nie je možné vrátiť späť. Všetok pokrok bude stratený."
+  },
   "selectedExerciseCard": {
     "setsLabel": "Séria",
     "repsLabel": "Opakovania",
@@ -240,7 +257,9 @@
     "removing": "Odstraňovanie...",
     "addSetButton": "Pridať sériu",
     "addingSet": "Pridávanie série...",
-    "noSets": "Zatiaľ neboli pridané žiadne série."
+    "noSets": "Zatiaľ neboli pridané žiadne série.",
+    "visitPageButton": "Informácie o cviku",
+    "reorderButton": "Presunúť cvik"
   },
   "workoutDetails": {
     "durationLabel": "Trvanie",
@@ -249,18 +268,24 @@
     "editButton": "Upraviť",
     "editing": "Úprava...",
     "deleteButton": "Odstrániť",
-    "deleting": "Odstraňovanie..."
+    "deleting": "Odstraňovanie...",
+    "confirmDeleteTitle": "Odstrániť tréning?",
+    "confirmDeleteDescription": "Týmto sa trvalo odstráni tento tréning a všetky súvisiace údaje. Ste si istí, že chcete pokračovať?",
+    "cancelButton": "Zrušiť"
   },
   "workoutDetailsCard": {
     "set": "Série",
     "reps": "Opakovania",
     "weight": "Váha (kg)"
   },
-   "workoutEditHeader": {
+  "workoutEditHeader": {
     "backButton": "Späť",
-    "nameLabel": "Název tréningu",
+    "nameLabel": "Názov tréningu",
     "deleteButton": "Odstrániť tréning",
-    "deleting": "Odstraňovanie tréningu..."
+    "deleting": "Odstraňovanie tréningu...",
+    "confirmDeleteTitle": "Odstrániť tréning?",
+    "confirmDeleteDescription": "Týmto sa trvalo odstráni tento tréning a všetky súvisiace údaje. Ste si istí, že chcete pokračovať?",
+    "cancelButton": "Zrušiť"
   },
   "profile": {
     "userCard": {
@@ -280,7 +305,7 @@
       "week4": "4. týždeň",
       "countLabel": "Tréningy"
     },
-     "last28Days": {
+    "last28Days": {
       "title": "Posledných 28 dní",
       "noData": "V posledných 28 dňoch neboli zaznamenané žiadne tréningy.",
       "workoutLabel": "Tréningy",
@@ -288,7 +313,7 @@
       "durationLabel": "Trvanie",
       "exercisesLabel": "Cviky"
     },
-     "workoutTrendsChart": {
+    "workoutTrendsChart": {
       "title": "Trendy v tréningu",
       "noData": "Žiadne dostupné údaje",
       "description": "V tomto grafe ešte nie sú žiadne údaje na zobrazenie.<br></br>Údaje sa tu zobrazia, keď budú k dispozícii.",

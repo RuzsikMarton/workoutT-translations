@@ -56,7 +56,7 @@
     "name": "Vysoký kríž na kladke",
     "description": "Vysoký kríž na kladke je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka pomocou kladkového stroja. Zahŕňa použitie kladkového stroja s kladkami nastavenými na najvyššiu pozíciu a kríženie rúk pred telom na konci pohybu. Tento pohyb zacieľuje na prsné svaly, konkrétne na dolné, vnútorné a vonkajšie oblasti, pričom ako sekundárne svaly posilňuje aj ramená a tricepsy."
   },
-   "low-cable-crossover": {
+  "low-cable-crossover": {
     "name": "Nízky kríž na kladke",
     "description": "Nízky kríž na kladke je izolačné cvičenie, ktoré zacieľuje na svaly hrudníka, najmä na horné a vnútorné oblasti pomocou kladkového stroja. Zahŕňa použitie kladkového stroja s navijakmi nastavenými na najnižšiu výšku a potom kríženie rúk pred hrudníkom pri mierne ohnutých lakťoch."
   },
@@ -198,7 +198,7 @@
   },
   "cable-rope-overhead-extension": {
     "name": "Tricepsové extenzie nad hlavou s lanom na kladke",
-    "description": "Tricepsové extenzie nad hlavou s lanom na kladke je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Hlavným cieľom pohybu tricepsových extenzií nad hlavou s lanom na kladke je triceps brachii sval. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s nadhmatom (dlaňou smerujúcou nadol) a predlžovaním ruky nahor. Tento pohyb sa zvyčajne vykonáva stojac, ale môže sa vykonávať aj v sede alebo v kľaku na úpravu úrovne obtiažnosti a zapojenia svalov." 
+    "description": "Tricepsové extenzie nad hlavou s lanom na kladke je cvičenie, ktoré zacieľuje na tricepsové svaly pomocou kladkového stroja. Hlavným cieľom pohybu tricepsových extenzií nad hlavou s lanom na kladke je triceps brachii sval. Cvičenie sa vykonáva stojac s nohami na šírku ramien a držaním rukoväte kladky s nadhmatom (dlaňou smerujúcou nadol) a predlžovaním ruky nahor. Tento pohyb sa zvyčajne vykonáva stojac, ale môže sa vykonávať aj v sede alebo v kľaku na úpravu úrovne obtiažnosti a zapojenia svalov."
   },
   "seated-dumbbell-triceps-extension": {
     "name": "Sediace tricepsové predpažovanie s činkou",
@@ -223,29 +223,33 @@
   "cable-lateral-raise": {
     "name": "Bočné zdvihy na kladce",
     "description": "Bočné zdvihy na kladke sú cvičenie, ktoré zacieľuje na ramenné svaly pomocou kladkového stroja. Bočné zdvihy na kladke zahŕňajú zdvíhanie paže do strany pomocou nízkej kladky a úchytu. Toto cvičenie poskytuje konštantné napätie na ramenné svaly počas pohybu, čo z neho robí efektívny spôsob, ako budovať silu a definíciu v ramenách."
-   },
-   "front-raise": {
-     "name": "Predné zdvihy s činkami",
-     "description": "Predné zdvihy s činkami sú izolačné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek. Hlavným cieľom pohybu predných zdvihov s činkami sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva státím s nohami na šírku ramien a držaním činiek v úrovni stehien s dlaňami smerujúcimi k telu, potom sa činky zdvíhajú pred telo, kým nie sú paže rovnobežné s podlahou."
-   },
-   "dumbbell-shoulder-press": {
-     "name": "Tlaky na ramená s činkami",
-     "description": "Tlaky na ramená s činkami sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek. Hlavným cieľom pohybu tlakov na ramená s činkami sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením alebo státím s nohami na šírku ramien a držaním činiek v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činky tlačia nad hlavu, kým nie sú paže úplne vystreté."
-   },
-   "lever-shoulder-press": {
-     "name": "Tlaky na ramená na pákovom stroji",
-     "description": "Tlaky na ramená na pákovom stroji sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou pákového stroja. Hlavným cieľom pohybu tlakov na ramená na pákovom stroji sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením na stroji s nohami plochými na podlahe a držaním rukovätí v úrovni ramien, potom sa rukoväte tlačia nad hlavu, kým nie sú paže úplne vystreté."
-   },
-   "military-press": {
-     "name": "Vojenské tlaky",
-     "description": "Vojenské tlaky sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou hriadeľovej činky. Hlavným cieľom pohybu vojenských tlakov sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva v stoji s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
-   },
-   "rear-delt-fly": {
+  },
+  "front-raise": {
+    "name": "Predné zdvihy s činkami",
+    "description": "Predné zdvihy s činkami sú izolačné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek. Hlavným cieľom pohybu predných zdvihov s činkami sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva státím s nohami na šírku ramien a držaním činiek v úrovni stehien s dlaňami smerujúcimi k telu, potom sa činky zdvíhajú pred telo, kým nie sú paže rovnobežné s podlahou."
+  },
+  "dumbbell-shoulder-press": {
+    "name": "Tlaky na ramená s činkami",
+    "description": "Tlaky na ramená s činkami sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou činiek. Hlavným cieľom pohybu tlakov na ramená s činkami sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením alebo státím s nohami na šírku ramien a držaním činiek v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činky tlačia nad hlavu, kým nie sú paže úplne vystreté."
+  },
+  "lateral-raise-machine": {
+    "name": "Bočné zdvihy na stroji",
+    "description": "Bočné zdvihy na stroji sú izolačné cvičenie, ktoré zacieľuje na ramenné svaly, konkrétne na bočné deltové svaly. Cvičenie sa vykonáva sedením na stroji s hrudníkom pritisnutým k opierke a držaním rukovätí s vystretými rukami, potom sa rukoväte zdvíhajú do strán, kým nedosiahnu výšku ramien, pričom sa ruky držia vystreté."
+  },
+  "lever-shoulder-press": {
+    "name": "Tlaky na ramená na pákovom stroji",
+    "description": "Tlaky na ramená na pákovom stroji sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou pákového stroja. Hlavným cieľom pohybu tlakov na ramená na pákovom stroji sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením na stroji s nohami plochými na podlahe a držaním rukovätí v úrovni ramien, potom sa rukoväte tlačia nad hlavu, kým nie sú paže úplne vystreté."
+  },
+  "military-press": {
+    "name": "Vojenské tlaky",
+    "description": "Vojenské tlaky sú komplexné cvičenie, ktoré zacieľuje na ramenné svaly pomocou hriadeľovej činky. Hlavným cieľom pohybu vojenských tlakov sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva v stoji s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
+  },
+  "rear-delt-fly": {
     "name": "Zadné deltové rozpažovanie",
     "description": "Zadné deltové rozpažovanie je izolačné cvičenie, ktoré cieli na zadné deltové svaly pomocou činiek. Cvičenie sa vykonáva tak, že sa predkloníte v páse s činkami v rukách a potom zdvíhate ruky do strán, kým nie sú paže rovnobežné s podlahou."
-   },
-   "seated-barbell-shoulder-press": {
-     "name": "Tlaky na ramená s hriadeľovou činkou v sede",
-     "description": "Tlaky na ramená s hriadeľovou činkou v sede sú komplexné cvičenie, ktoré cieli na ramenné svaly pomocou hriadeľovej činky pri sedení. Hlavným cieľom pohybu tlakov na ramená s hriadeľovou činkou v sede sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením na lavičke s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
-   }
+  },
+  "seated-barbell-shoulder-press": {
+    "name": "Tlaky na ramená s hriadeľovou činkou v sede",
+    "description": "Tlaky na ramená s hriadeľovou činkou v sede sú komplexné cvičenie, ktoré cieli na ramenné svaly pomocou hriadeľovej činky pri sedení. Hlavným cieľom pohybu tlakov na ramená s hriadeľovou činkou v sede sú deltové svaly, s dôrazom na predný deltový sval. Cvičenie sa vykonáva sedením na lavičke s nohami na šírku ramien a držaním hriadeľovej činky v úrovni ramien s dlaňami smerujúcimi dopredu, potom sa činka tlačí nad hlavu, kým nie sú paže úplne vystreté."
+  }
 }

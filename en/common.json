@@ -113,7 +113,7 @@
     "feature2Title": "Exercises List",
     "feature2Desc": "List of exercises with detailed descriptions and images to guide your workouts.",
     "feature3Title": "Progress Tracking",
-    "feature3Desc": "Monitor your fitness journey with PR tracking and performance analytics." 
+    "feature3Desc": "Monitor your fitness journey with PR tracking and performance analytics."
   },
   "ExercisesPage": {
     "title": "Exercises",
@@ -160,7 +160,17 @@
       "heaviestSetLabel": "Heaviest Set",
       "bestVolumeLabel": "Best Volume",
       "best1ERMLabel": "Best 1ERM",
-      "lastPerformedLabel": "Last Performed"
+      "lastPerformedLabel": "Last Performed",
+      "bestLabel": "Best",
+      "lastLabel": "Last",
+      "statTable": {
+        "date": "en-US",
+        "sets": "Sets",
+        "reps": "Reps",
+        "weight": "Weight",
+        "volume": "Volume",
+        "noData": "No workout data available for this exercise."
+      }
     }
   },
   "PersonalBestCard": {
@@ -206,10 +216,10 @@
     "detailsButton": "View Details"
   },
   "workoutSheet": {
-    "title":"Add Exercises",
-    "subtitle":"Add exercises to your workout by selecting them from the list below.",
-    "addButton":"Add Selected Exercises",
-    "adding":"Adding exercises..."
+    "title": "Add Exercises",
+    "subtitle": "Add exercises to your workout by selecting them from the list below.",
+    "addButton": "Add Selected Exercises",
+    "adding": "Adding exercises..."
   },
   "workoutSheetFilter": {
     "muscle": "Muscle",
@@ -230,8 +240,15 @@
     "backButton": "Back",
     "completeButton": "Complete Workout",
     "completing": "Completing workout...",
+    "confirmCompleteTitle": "Complete Workout?",
+    "confirmCompleteDescription": "Are you sure you want to complete this workout? This action cannot be undone. You will still be able to view and edit this workout in your history.",
+    "cancelButton": "Cancel",
     "workoutNamePlaceholder": "Workout Name",
-    "addExerciseButton": "Add Exercise"
+    "addExerciseButton": "Add Exercise",
+    "cancelWorkoutButton": "Cancel Workout",
+    "cancelingWorkout": "Canceling workout...",
+    "confirmCancelTitle": "Cancel Workout?",
+    "confirmCancelDescription": "Are you sure you want to cancel this workout? This action cannot be undone. All progress will be lost."
   },
   "selectedExerciseCard": {
     "setsLabel": "Set",
@@ -240,7 +257,9 @@
     "removing": "Removing...",
     "addSetButton": "Add Set",
     "addingSet": "Adding set...",
-    "noSets": "No sets added yet."
+    "noSets": "No sets added yet.",
+    "visitPageButton": "Visit Exercise Page",
+    "reorderButton": "Reorder Exercise"
   },
   "workoutDetails": {
     "durationLabel": "Duration",
@@ -249,7 +268,10 @@
     "editButton": "Edit",
     "editing": "Editing...",
     "deleteButton": "Delete",
-    "deleting": "Deleting workout..."
+    "deleting": "Deleting workout...",
+    "confirmDeleteTitle": "Delete Workout?",
+    "confirmDeleteDescription": "This will permanently delete this workout and all associated data. Are you sure you want to proceed?",
+    "cancelButton": "Cancel"
   },
   "workoutDetailsCard": {
     "set": "Set",
@@ -260,7 +282,10 @@
     "backButton": "Back",
     "nameLabel": "Workout Name",
     "deleteButton": "Delete Workout",
-    "deleting": "Deleting workout..."
+    "deleting": "Deleting workout...",
+    "confirmDeleteTitle": "Delete Workout?",
+    "confirmDeleteDescription": "This will permanently delete this workout and all associated data. Are you sure you want to proceed?",
+    "cancelButton": "Cancel"
   },
   "profile": {
     "userCard": {
